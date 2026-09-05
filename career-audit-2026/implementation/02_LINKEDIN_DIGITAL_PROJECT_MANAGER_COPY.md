@@ -1,6 +1,6 @@
 # LinkedIn Implementation Copy — Digital Project Manager
 
-**Status:** working implementation copy based on the approved primary positioning.
+**Status:** working implementation copy based on the approved primary positioning and the independent final review.
 
 The objective is immediate recruiter classification. `Digital Project Manager` must be visible before AI, transformation, operations or creative-technology language.
 
@@ -34,13 +34,16 @@ Recent work includes:
 - designing a reusable project-estimation framework;
 - designing and facilitating a process workshop with 22 stakeholders;
 - supporting GenAI adoption and practical AI-assisted production workflows;
-- coordinating multidisciplinary teams of up to 10 people in international environments.
+- coordinating multidisciplinary teams of up to 10 people in international environments;
+- leading the interior-lighting function for a five-person automotive CGI team, including onboarding support, quality review and delivery consistency.
+
+My project-management toolkit combines requirements and dependency management, stakeholder alignment, QA and delivery follow-up with **Agile/Scrum foundations from the Google Project Management Certificate**.
 
 Selected R&D and automation initiatives contributed to a 25% reduction in operational costs, a 40% acceleration in time-to-market and productivity increases of up to 40%.
 
 What I bring to a digital project is a combination of **project coordination, stakeholder alignment, production knowledge and technical fluency**. I can help teams define and deliver new work, keep delivery moving, improve workflows when needed and implement practical tools or new ways of working when they create real value.
 
-**Core areas:** Digital Project Management · Stakeholder & Requirements Management · Cross-functional Delivery · Digital Production · 3D/CGI & XR · Workflow & Process Design · Content QA · Estimation · GenAI Adoption · Automation · Workshop Facilitation
+**Core areas:** Digital Project Management · Stakeholder & Requirements Management · Cross-functional Delivery · Agile/Scrum Foundations · Digital Production · 3D/CGI & XR · Workflow & Process Design · Content QA · Estimation · GenAI Adoption · Automation · Workshop Facilitation
 
 ---
 
@@ -57,6 +60,7 @@ Do **not** rename the employment record to `Digital Project Manager` if that is 
 ### Description
 
 - Coordinate multidisciplinary teams of up to 10 people across technical, creative and business profiles on international digital-production initiatives.
+- Led the interior-lighting function for a five-person automotive CGI team, supporting onboarding, work-quality review and delivery consistency.
 - Translate operational needs from team leads and stakeholders into practical solutions, MVPs and internal tools.
 - Defined and prototyped an Intelligent Content QA System for master-to-pre-production content validation and reusable QA criteria.
 - Designed a reusable project-estimation framework based on complexity drivers, assumptions, dependencies and benchmark logic.
@@ -93,6 +97,8 @@ Do **not** rename the employment record to `Digital Project Manager` if that is 
 
 This experience is strategically important. It is some of the strongest evidence that the `Digital Project Manager` positioning is based on work Miguel has genuinely done rather than only on a new certification or future aspiration.
 
+Do **not** add budget/P&L ownership to this role unless Miguel explicitly confirms what he actually managed.
+
 ---
 
 ## Featured section — recommended order
@@ -116,16 +122,19 @@ Prioritize / pin the skills that reinforce recruiter search for the chosen famil
 3. Stakeholder Management
 4. Cross-functional Team Leadership
 5. Requirements Analysis / Requirements Management
-6. Digital Production
-7. Project Delivery
-8. Process Improvement
-9. Workflow Automation
-10. Generative AI
-11. Quality Assurance
-12. Workshop Facilitation
-13. 3D / CGI
-14. Extended Reality (XR)
-15. Product Management
+6. Project Delivery
+7. Agile Project Management
+8. Digital Production
+9. Process Improvement
+10. Workflow Automation
+11. Generative AI
+12. Quality Assurance
+13. Workshop Facilitation
+14. 3D / CGI
+15. Extended Reality (XR)
+16. Product Management
+
+`Agile Project Management` is supported as a foundation by the Google Project Management Certificate. Do not present Miguel as a Scrum Master or imply extensive formal Scrum delivery unless validated by work evidence.
 
 Do not make `Artificial Intelligence`, `Stable Diffusion`, `ComfyUI` or individual creative tools the first skills. They are differentiators, not the professional category we want LinkedIn search and human readers to assign.
 
