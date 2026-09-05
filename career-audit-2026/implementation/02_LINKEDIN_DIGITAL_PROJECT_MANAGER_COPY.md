@@ -26,16 +26,16 @@ I am a **Digital Project Manager** with 20+ years of hands-on experience across 
 
 My career started inside the work itself: producing digital and visual content, building 3D and interactive experiences, working with clients and eventually creating and directing my own digital studio. There I managed projects end to end, including client relationships, requirements, scope, estimates, project budgets, planning, production, quality, timelines and delivery. That background now shapes how I manage projects: I understand the production and commercial reality behind requirements, timelines, quality, technical decisions and delivery.
 
-Today, as an Assistant Manager in Accenture Marketing Operations, I work across digital-production, workflow and AI-enabled initiatives. I coordinate multidisciplinary profiles, translate operational and business needs into practical solutions, facilitate stakeholder workshops and contribute to projects involving content QA, estimation, automation and GenAI enablement.
+Today at Accenture Marketing Operations, I work across digital-production, workflow and AI-enabled initiatives. I coordinate multidisciplinary profiles, translate operational and business needs into practical solutions, facilitate stakeholder workshops and contribute to projects involving content QA, estimation, automation and GenAI enablement.
 
 Recent work includes:
 
 - defining and prototyping an Intelligent Content QA System for master-to-pre-production validation;
 - designing a reusable project-estimation framework;
-- designing and facilitating a process workshop with 22 stakeholders;
+- designing and facilitating a process workshop with 22 stakeholders for a global hospitality group;
 - supporting GenAI adoption and practical AI-assisted production workflows;
 - coordinating multidisciplinary teams of up to 10 people in international environments;
-- leading the interior-lighting function for a five-person automotive CGI team, including onboarding support, quality review and delivery consistency.
+- leading the interior-lighting function for a five-person CGI team for a global premium automotive brand, including onboarding support, quality review and delivery consistency.
 
 My project-management toolkit combines requirements and dependency management, stakeholder alignment, QA and delivery follow-up with **Agile/Scrum foundations from the Google Project Management Certificate**. My studio background also gives me direct experience with project scoping, estimates and project budgets.
 
@@ -55,12 +55,12 @@ Keep the real employment title visible:
 
 **Assistant Manager | GenAI Adoption & Digital Innovation**
 
-Do **not** rename the employment record to `Digital Project Manager` if that is not the formal title. The profile headline establishes the market identity; the Experience section must remain factually defensible.
+Do **not** rename the employment record to `Digital Project Manager` if that is not the formal title. The profile headline establishes the market identity; the Experience section must remain factually defensible. It does not need to be repeated in the About section.
 
 ### Description
 
 - Coordinate multidisciplinary teams of up to 10 people across technical, creative and business profiles on international digital-production initiatives.
-- Led the interior-lighting function for a five-person automotive CGI team, supporting onboarding, work-quality review and delivery consistency.
+- Led the interior-lighting function for a five-person CGI team for a global premium automotive brand, supporting onboarding, work-quality review and delivery consistency.
 - Translate operational needs from team leads and stakeholders into practical solutions, MVPs and internal tools.
 - Defined and prototyped an Intelligent Content QA System for master-to-pre-production content validation and reusable QA criteria.
 - Designed a reusable project-estimation framework based on complexity drivers, assumptions, dependencies and benchmark logic.
@@ -98,7 +98,7 @@ Do **not** rename the employment record to `Digital Project Manager` if that is 
 
 This experience is strategically important. It is some of the strongest evidence that the `Digital Project Manager` positioning is based on work Miguel has genuinely done rather than only on a new certification or future aspiration.
 
-`Project budgets` and `cost estimates` are now confirmed and may be used for BlackSheepStudio. Do **not** inflate this into enterprise P&L ownership or large-programme financial governance.
+`Project budgets` and `cost estimates` are confirmed and may be used for BlackSheepStudio. Do **not** inflate this into enterprise P&L ownership or large-programme financial governance.
 
 ---
 
@@ -107,8 +107,8 @@ This experience is strategically important. It is some of the strongest evidence
 1. Portfolio — recruiter-facing Digital Project Manager version.
 2. Intelligent Content QA System — strongest current digital-project / solution example.
 3. CV — Digital Project Manager version.
-4. One strong digital-production / XR / CGI delivery case that proves technical-production depth.
-5. Optional: Radisson workshop / process case if a clean public-safe artifact exists.
+4. One public-safe digital-production / XR / CGI delivery case that proves technical-production depth without exposing an Accenture client.
+5. Optional: anonymised hospitality process-workshop case if a clean public-safe artifact exists.
 
 Do not overload Featured with AI experiments. AI should reinforce the role rather than turn the profile back into an ambiguous AI-specialist profile.
 
@@ -143,6 +143,10 @@ Prioritize / pin the skills that reinforce recruiter search for the chosen famil
 `Agile Project Management` is supported as a foundation by the Google Project Management Certificate. Do not present Miguel as a Scrum Master or imply extensive formal Scrum delivery unless validated by work evidence.
 
 Do not make `Artificial Intelligence`, `Stable Diffusion`, `ComfyUI` or individual creative tools the first skills. They are differentiators, not the professional category we want LinkedIn search and human readers to assign.
+
+## Confidentiality guardrail
+
+For work delivered through Accenture, do not publish client names, client logos or identifying project details by default. Use sector descriptions such as `global hospitality group`, `global premium automotive brand`, `consumer electronics company` or `financial services group` where relevant. Keep the validated quantified impact metrics.
 
 ---
 
