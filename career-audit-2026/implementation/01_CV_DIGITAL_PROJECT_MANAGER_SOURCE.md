@@ -12,12 +12,13 @@ Madrid, Spain | contact details | LinkedIn | Portfolio
 
 ## Professional Summary
 
-Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, design and emerging technology. Combines hands-on production fluency with end-to-end delivery: translating business needs into requirements and practical solutions, coordinating creative, technical and business profiles, and managing quality, timelines and stakeholder alignment. Currently an Assistant Manager in Accenture Marketing Operations, working across content QA, estimation, GenAI enablement and workflow automation.
+Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, design and emerging technology. Combines hands-on production fluency with end-to-end delivery: translating business needs into requirements and practical solutions, coordinating creative, technical and business profiles, and managing scope, quality, timelines, estimates, budgets and stakeholder alignment. Currently an Assistant Manager in Accenture Marketing Operations, working across content QA, estimation, GenAI enablement and workflow automation.
 
 ## Core Competencies
 
 - **Project Delivery Methods** — Agile/Scrum foundations (Google PM), requirements, dependencies, QA and delivery follow-up.
 - **Stakeholder Management** — Discovery, alignment, workshops, client / business communication.
+- **Scoping, Estimation & Budgets** — Project scope, cost estimates and project budgets from direct studio ownership.
 - **Cross-functional Coordination** — Creative, technical, production and business profiles.
 - **Digital Production** — 3D/CGI, XR/AR, realtime, UX/UI, content workflows.
 - **Workflow & Process Design** — QA systems, estimation frameworks, handoffs and standardization.
@@ -42,8 +43,9 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 ### Founder | Digital Studio Director — BlackSheepStudio
 **Spain | 2014 – 2020**
 
-- Led end-to-end digital, interactive and visual projects from client brief and requirements through planning, execution, quality review and delivery.
-- Managed clients and external collaborators directly, with responsibility for scope, quality, timelines and final delivery across multiple industries.
+- Created and directed the studio, leading digital, interactive and visual projects end to end from client need and requirements through final delivery.
+- Managed client relationships, project / product definition, scope, estimates, project budgets, planning, production, quality, timelines and final delivery across multiple industries.
+- Coordinated external collaborators when required and balanced client expectations, costs, scope and production requirements throughout delivery.
 
 ### Art Director | Graphic Designer | 3D Specialist — Agencies & Creative Studios
 **Spain | 2003 – 2014**
@@ -83,7 +85,8 @@ Keep these constraints in every future CV adaptation unless Miguel explicitly va
 - Team coordination: **up to 10 people**, not 50.
 - Five-person leadership evidence is specifically the automotive CGI **interior-lighting function**, including onboarding support, quality review and delivery consistency.
 - `Agile/Scrum` may be described as **foundations / Agile-informed delivery based on Google PM training**. Do not imply a formal Scrum Master role or extensive professional Scrum practice unless validated.
+- BlackSheepStudio budget evidence is now **explicitly confirmed by Miguel**: he personally handled client management, project / product definition, production, estimates and project budgets as founder and director.
+- It is therefore valid to claim **project budget management / project budgets / cost estimates** for BlackSheepStudio. Do not inflate this into enterprise P&L ownership, large-programme financial governance or a scale that has not been evidenced.
 - Do not claim enterprise programme budget / P&L / large PMO governance ownership.
-- Do not infer budget ownership from BlackSheepStudio without Miguel explicitly confirming it.
 - Do not rename the formal Accenture employment title to `Digital Project Manager`; the header is the market positioning, while Experience remains factually accurate.
 - English remains **B2** unless formally updated.
