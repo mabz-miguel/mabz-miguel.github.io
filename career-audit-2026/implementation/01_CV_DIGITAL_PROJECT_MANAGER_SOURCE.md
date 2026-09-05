@@ -1,6 +1,6 @@
 # CV Source — Digital Project Manager
 
-**Status:** implementation source for the new recruiter-facing CV. The generated DOCX/PDF must remain aligned to this positioning.
+**Status:** implementation source for the recruiter-facing CV. The generated DOCX/PDF must remain aligned to this positioning.
 
 ## Header
 
@@ -16,7 +16,7 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 
 ## Core Competencies
 
-- **Digital Project Delivery** — Requirements, planning, coordination, QA, delivery follow-up.
+- **Project Delivery Methods** — Agile/Scrum foundations (Google PM), requirements, dependencies, QA and delivery follow-up.
 - **Stakeholder Management** — Discovery, alignment, workshops, client / business communication.
 - **Cross-functional Coordination** — Creative, technical, production and business profiles.
 - **Digital Production** — 3D/CGI, XR/AR, realtime, UX/UI, content workflows.
@@ -28,7 +28,7 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 ### Assistant Manager | GenAI Adoption & Digital Innovation — Accenture Marketing Operations
 **Madrid, Spain | 2022 – Present**
 
-- Coordinate multidisciplinary teams of up to 10 people across technical, creative and business profiles on international digital-production initiatives.
+- Coordinate multidisciplinary teams of up to 10 people across technical, creative and business profiles; led a five-person automotive CGI interior-lighting function with onboarding support, quality review and delivery consistency.
 - Translate operational needs into practical solutions, MVPs and internal tools, including an Intelligent Content QA System and reusable project-estimation framework.
 - Design and facilitate stakeholder workshops to diagnose issues, align priorities and turn findings into actionable next steps.
 - R&D and automation initiatives contributed to a 25% reduction in operational costs, 40% faster time-to-market and productivity increases of up to 40%.
@@ -81,6 +81,9 @@ Keep these constraints in every future CV adaptation unless Miguel explicitly va
 - Time-to-market: **40%**.
 - Productivity increase: **up to 40%**.
 - Team coordination: **up to 10 people**, not 50.
+- Five-person leadership evidence is specifically the automotive CGI **interior-lighting function**, including onboarding support, quality review and delivery consistency.
+- `Agile/Scrum` may be described as **foundations / Agile-informed delivery based on Google PM training**. Do not imply a formal Scrum Master role or extensive professional Scrum practice unless validated.
 - Do not claim enterprise programme budget / P&L / large PMO governance ownership.
+- Do not infer budget ownership from BlackSheepStudio without Miguel explicitly confirming it.
 - Do not rename the formal Accenture employment title to `Digital Project Manager`; the header is the market positioning, while Experience remains factually accurate.
 - English remains **B2** unless formally updated.
