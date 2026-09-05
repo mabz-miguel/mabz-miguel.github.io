@@ -24,7 +24,7 @@ Use only if the target vacancy is strongly content / production oriented.
 
 I am a **Digital Project Manager** with 20+ years of hands-on experience across digital production, 3D/CGI, XR, design and emerging technology.
 
-My career started inside the work itself: producing digital and visual content, building 3D and interactive experiences, working with clients and eventually running my own digital studio. That background now shapes how I manage projects: I understand the production reality behind requirements, timelines, quality, technical decisions and delivery.
+My career started inside the work itself: producing digital and visual content, building 3D and interactive experiences, working with clients and eventually creating and directing my own digital studio. There I managed projects end to end, including client relationships, requirements, scope, estimates, project budgets, planning, production, quality, timelines and delivery. That background now shapes how I manage projects: I understand the production and commercial reality behind requirements, timelines, quality, technical decisions and delivery.
 
 Today, as an Assistant Manager in Accenture Marketing Operations, I work across digital-production, workflow and AI-enabled initiatives. I coordinate multidisciplinary profiles, translate operational and business needs into practical solutions, facilitate stakeholder workshops and contribute to projects involving content QA, estimation, automation and GenAI enablement.
 
@@ -37,13 +37,13 @@ Recent work includes:
 - coordinating multidisciplinary teams of up to 10 people in international environments;
 - leading the interior-lighting function for a five-person automotive CGI team, including onboarding support, quality review and delivery consistency.
 
-My project-management toolkit combines requirements and dependency management, stakeholder alignment, QA and delivery follow-up with **Agile/Scrum foundations from the Google Project Management Certificate**.
+My project-management toolkit combines requirements and dependency management, stakeholder alignment, QA and delivery follow-up with **Agile/Scrum foundations from the Google Project Management Certificate**. My studio background also gives me direct experience with project scoping, estimates and project budgets.
 
 Selected R&D and automation initiatives contributed to a 25% reduction in operational costs, a 40% acceleration in time-to-market and productivity increases of up to 40%.
 
-What I bring to a digital project is a combination of **project coordination, stakeholder alignment, production knowledge and technical fluency**. I can help teams define and deliver new work, keep delivery moving, improve workflows when needed and implement practical tools or new ways of working when they create real value.
+What I bring to a digital project is a combination of **project coordination, stakeholder alignment, production knowledge, commercial awareness and technical fluency**. I can help teams define and deliver new work, keep delivery moving, improve workflows when needed and implement practical tools or new ways of working when they create real value.
 
-**Core areas:** Digital Project Management · Stakeholder & Requirements Management · Cross-functional Delivery · Agile/Scrum Foundations · Digital Production · 3D/CGI & XR · Workflow & Process Design · Content QA · Estimation · GenAI Adoption · Automation · Workshop Facilitation
+**Core areas:** Digital Project Management · Stakeholder & Requirements Management · Project Scoping & Estimation · Project Budgets · Cross-functional Delivery · Agile/Scrum Foundations · Digital Production · 3D/CGI & XR · Workflow & Process Design · Content QA · GenAI Adoption · Automation · Workshop Facilitation
 
 ---
 
@@ -91,13 +91,14 @@ Do **not** rename the employment record to `Digital Project Manager` if that is 
 
 ### Description
 
-- Led end-to-end digital, interactive and visual projects from client brief and requirements through planning, execution, quality review and final delivery.
-- Managed client relationships directly across multiple industries, translating needs into executable project scope and deliverables.
-- Coordinated external collaborators with responsibility for scope, quality, timelines and client delivery.
+- Created and directed the studio, leading digital, interactive and visual projects end to end from client need and requirements through final delivery.
+- Managed client relationships directly across multiple industries, translating needs into project / product scope and executable deliverables.
+- Held direct responsibility for project scoping, estimates, project budgets, planning, production, quality, timelines and final delivery.
+- Coordinated external collaborators when required and balanced client expectations, costs, scope and production requirements throughout delivery.
 
 This experience is strategically important. It is some of the strongest evidence that the `Digital Project Manager` positioning is based on work Miguel has genuinely done rather than only on a new certification or future aspiration.
 
-Do **not** add budget/P&L ownership to this role unless Miguel explicitly confirms what he actually managed.
+`Project budgets` and `cost estimates` are now confirmed and may be used for BlackSheepStudio. Do **not** inflate this into enterprise P&L ownership or large-programme financial governance.
 
 ---
 
@@ -120,19 +121,24 @@ Prioritize / pin the skills that reinforce recruiter search for the chosen famil
 1. Project Management
 2. Digital Project Management
 3. Stakeholder Management
-4. Cross-functional Team Leadership
-5. Requirements Analysis / Requirements Management
-6. Project Delivery
-7. Agile Project Management
-8. Digital Production
-9. Process Improvement
-10. Workflow Automation
-11. Generative AI
-12. Quality Assurance
-13. Workshop Facilitation
-14. 3D / CGI
-15. Extended Reality (XR)
-16. Product Management
+4. Requirements Analysis / Requirements Management
+5. Project Planning
+6. Project Estimation
+7. Budget Management
+8. Cross-functional Team Leadership
+9. Project Delivery
+10. Agile Project Management
+11. Digital Production
+12. Process Improvement
+13. Workflow Automation
+14. Generative AI
+15. Quality Assurance
+16. Workshop Facilitation
+17. 3D / CGI
+18. Extended Reality (XR)
+19. Product Management
+
+`Budget Management` is supported specifically by Miguel's confirmed BlackSheepStudio project-budget responsibility. Do not imply enterprise P&L ownership.
 
 `Agile Project Management` is supported as a foundation by the Google Project Management Certificate. Do not present Miguel as a Scrum Master or imply extensive formal Scrum delivery unless validated by work evidence.
 
@@ -144,6 +150,6 @@ Do not make `Artificial Intelligence`, `Stable Diffusion`, `ComfyUI` or individu
 
 The profile should produce this interpretation:
 
-> **Miguel is a Digital Project Manager with unusually deep digital-production experience. He can coordinate creative, technical and business stakeholders, take work from need to delivery, and understands AI / automation well enough to apply them pragmatically inside real workflows.**
+> **Miguel is a Digital Project Manager with unusually deep digital-production experience. He can scope and coordinate digital work, manage stakeholders, estimates and project budgets, take work from need to delivery, and understands AI / automation well enough to apply them pragmatically inside real workflows.**
 
 If the profile instead reads primarily as `AI lead`, `3D artist`, `creative technologist` or `transformation consultant`, the implementation has drifted away from the approved positioning.
