@@ -30,7 +30,7 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 **Madrid, Spain | 2022 – Present**
 
 - Coordinate multidisciplinary teams of up to 10 people across technical, creative and business profiles; led a five-person automotive CGI interior-lighting function with onboarding support, quality review and delivery consistency.
-- Translate operational needs into practical solutions, MVPs and internal tools, including an Intelligent Content QA System and reusable project-estimation framework.
+- Translate operational needs into practical solutions, working systems and internal tools, including an Intelligent Content QA System and reusable project-estimation framework.
 - Design and facilitate stakeholder workshops to diagnose issues, align priorities and turn findings into actionable next steps.
 - R&D and automation initiatives contributed to a 25% reduction in operational costs, 40% faster time-to-market and productivity increases of up to 40%.
 - Support GenAI adoption through the GenAI Hub and internal enablement, including practical production workflows and ComfyUI training.
@@ -54,7 +54,7 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 
 ## Selected Projects
 
-**Intelligent Content QA System:** MVP and prototype for AI-assisted web-content validation, comparing master vs. pre-production outputs and structuring reusable QA criteria.
+**Intelligent Content QA System:** Functional, reusable system for AI-assisted web-content validation, comparing master vs. pre-production outputs and structuring reusable QA criteria.
 
 **Marketing Operations Estimator:** Reusable estimation framework using complexity drivers, assumptions, dependencies and benchmark logic to improve planning consistency.
 
