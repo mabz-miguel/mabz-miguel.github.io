@@ -12,7 +12,7 @@ Madrid, Spain | contact details | LinkedIn | Portfolio
 
 ## Professional Summary
 
-Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, design and emerging technology. Combines hands-on production fluency with end-to-end delivery: translating business needs into requirements and practical solutions, coordinating creative, technical and business profiles, and managing scope, quality, timelines, estimates, budgets and stakeholder alignment. Currently an Assistant Manager in Accenture Marketing Operations, working across content QA, estimation, GenAI enablement and workflow automation.
+Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, design and emerging technology. Combines hands-on production fluency with end-to-end delivery: translating business needs into requirements and practical solutions, coordinating creative, technical and business profiles, and managing scope, quality, timelines, estimates, budgets and stakeholder alignment. Currently at Accenture Marketing Operations, working across content QA, estimation, GenAI enablement and workflow automation.
 
 ## Core Competencies
 
@@ -88,7 +88,7 @@ Keep these constraints in every future CV adaptation unless Miguel explicitly va
 - BlackSheepStudio budget evidence is **explicitly confirmed by Miguel**: he personally handled client management, project / product definition, production, estimates and project budgets as founder and director.
 - It is therefore valid to claim **project budget management / project budgets / cost estimates** for BlackSheepStudio. Do not inflate this into enterprise P&L ownership, large-programme financial governance or a scale that has not been evidenced.
 - Do not claim enterprise programme budget / P&L / large PMO governance ownership.
-- Do not rename the formal Accenture employment title to `Digital Project Manager`; the header is the market positioning, while Experience remains factually accurate.
+- Do not rename the formal Accenture employment title to `Digital Project Manager`; the header is the market positioning, while Experience remains factually accurate. The formal title does not need to be foregrounded in the summary or portfolio hero.
 - For work delivered through Accenture, **do not publish identifiable client names, logos or confidential project details by default**. Use sector descriptors such as `global hospitality group` or `global premium automotive brand` unless a specific public-use decision has been made.
 - Keep the quantified impact metrics above; Miguel has explicitly chosen to retain them.
 - English remains **B2** unless formally updated.
