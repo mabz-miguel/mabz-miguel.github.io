@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mabz-miguel.github.io/sitemap.xml
