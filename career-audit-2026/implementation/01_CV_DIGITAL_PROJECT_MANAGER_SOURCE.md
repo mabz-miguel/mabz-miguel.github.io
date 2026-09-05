@@ -58,7 +58,7 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 
 **Marketing Operations Estimator:** Reusable estimation framework using complexity drivers, assumptions, dependencies and benchmark logic to improve planning consistency.
 
-**Radisson Process Workshop:** Designed and facilitated a diagnostic session with 22 stakeholders, translating findings into actionable improvement areas and executive outputs.
+**Process Transformation Workshop — Global Hospitality Group:** Designed and facilitated a diagnostic session with 22 stakeholders, translating findings into actionable improvement areas and executive outputs.
 
 ## Education & Certifications
 
@@ -75,7 +75,7 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 **Digital / technical:** Unreal Engine, Unity, Figma, Adobe Creative Suite, ComfyUI, Claude Code, Stable Diffusion, Flux, Python (basic, in progress).  
 **Languages:** Spanish (native) | English B2 (daily professional use in international environments).
 
-## Evidence constraints
+## Evidence & confidentiality constraints
 
 Keep these constraints in every future CV adaptation unless Miguel explicitly validates new evidence:
 
@@ -85,8 +85,10 @@ Keep these constraints in every future CV adaptation unless Miguel explicitly va
 - Team coordination: **up to 10 people**, not 50.
 - Five-person leadership evidence is specifically the automotive CGI **interior-lighting function**, including onboarding support, quality review and delivery consistency.
 - `Agile/Scrum` may be described as **foundations / Agile-informed delivery based on Google PM training**. Do not imply a formal Scrum Master role or extensive professional Scrum practice unless validated.
-- BlackSheepStudio budget evidence is now **explicitly confirmed by Miguel**: he personally handled client management, project / product definition, production, estimates and project budgets as founder and director.
+- BlackSheepStudio budget evidence is **explicitly confirmed by Miguel**: he personally handled client management, project / product definition, production, estimates and project budgets as founder and director.
 - It is therefore valid to claim **project budget management / project budgets / cost estimates** for BlackSheepStudio. Do not inflate this into enterprise P&L ownership, large-programme financial governance or a scale that has not been evidenced.
 - Do not claim enterprise programme budget / P&L / large PMO governance ownership.
 - Do not rename the formal Accenture employment title to `Digital Project Manager`; the header is the market positioning, while Experience remains factually accurate.
+- For work delivered through Accenture, **do not publish identifiable client names, logos or confidential project details by default**. Use sector descriptors such as `global hospitality group` or `global premium automotive brand` unless a specific public-use decision has been made.
+- Keep the quantified impact metrics above; Miguel has explicitly chosen to retain them.
 - English remains **B2** unless formally updated.
