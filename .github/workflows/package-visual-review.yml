@@ -1,0 +1,19 @@
+name: Package visual review
+on:
+  push:
+    branches: [visual-review-temp]
+    paths: [.github/workflows/package-visual-review.yml]
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: visual-review-site
+          path: |
+            index.html
+            assets
+          retention-days: 1
