@@ -30,7 +30,7 @@
       --line:#222A31; --line-soft:rgba(91,175,214,.14);
       --max:1180px;      /* single container width, used everywhere */
       --gap:40px;        /* standard column gap */
-      --title-col:360px; /* section-header title column */
+      --title-col:360px; /* content sidebar width */
       --sans:'DM Sans',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
       --ease:cubic-bezier(.22,1,.36,1);
     }
@@ -45,7 +45,7 @@
     .section-label{color:var(--accent-2);font-size:.66rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
 
     /* one-time section reveal (progressive enhancement — only active when JS runs) */
-    .js [data-reveal]{opacity:0;transform:translateY(14px);transition:opacity .5s var(--ease),transform .5s var(--ease)}
+    .js [data-reveal]{opacity:0;transform:translateY(14px);transition:opacity .3s var(--ease),transform .3s var(--ease)}
     .js [data-reveal].in{opacity:1;transform:none}
 
     a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:4px}
@@ -88,11 +88,11 @@
     .btn.primary:hover{border-color:var(--accent);background:rgba(91,175,214,.16)}
 
     /* ---- hero ---- */
-    .hero{padding:58px 0 44px;overflow:hidden}
-    .hero-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:38px;align-items:stretch}
+    .hero{padding:64px 0 88px}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:32px;align-items:stretch}
     .hero-content{min-width:0}
-    .hero-media{width:100%;min-height:440px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--bg-soft)}
-    .hero-media img{width:100%;height:100%;object-fit:cover;object-position:53% 20%}
+    .hero-media{position:relative;width:100%;min-height:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--bg-soft)}
+    .hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:53% 20%}
     .hero h1{font-size:clamp(2.6rem,4.4vw,3.6rem);line-height:1.05;letter-spacing:-.04em;margin:0}
     .hero h1::after{content:"";display:block;width:44px;height:2px;background:var(--accent);margin-top:20px}
     .hero-desc{font-size:.8rem;letter-spacing:.05em;color:var(--muted);margin:16px 0 20px;font-weight:500}
@@ -105,10 +105,10 @@
     .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
 
     /* ---- sections ---- */
-    section{padding:68px 0}
+    section{padding:96px 0;scroll-margin-top:96px}
     .expertise,.experience,#education,#contact{border-top:1px solid var(--line)}
     .split{display:grid;grid-template-columns:minmax(0,var(--title-col)) minmax(0,1fr);gap:var(--gap);align-items:start}
-    .split.lede-row{grid-template-columns:fit-content(360px) minmax(0,1fr);gap:36px;align-items:end;margin-bottom:24px}
+    .split.lede-row{grid-template-columns:minmax(0,.45fr) minmax(0,.55fr);gap:28px;align-items:end;max-width:960px;margin-bottom:32px}
     .lede h2{font-size:clamp(1.8rem,2.8vw,2.55rem);line-height:1.07;margin:10px 0 0}
     .lede p{color:var(--soft);font-size:.94rem;line-height:1.6;margin:16px 0 0;max-width:520px}
     .lead-note{color:var(--soft);font-size:.94rem;line-height:1.6;margin:0;max-width:540px;align-self:end}
@@ -120,7 +120,7 @@
     .exp-item:first-child{padding-left:0;border-left:0}
     .exp-item .mk{width:32px;height:32px;border:1px solid var(--line-soft);border-radius:8px;display:grid;place-items:center;color:var(--accent);margin-bottom:18px;transition:border-color .22s var(--ease),background .22s var(--ease),transform .22s var(--ease)}
     .exp-item .mk svg{width:16px;height:16px;transition:transform .22s var(--ease)}
-    .exp-item:hover .mk{border-color:var(--accent);background:rgba(91,175,214,.07);transform:translateY(-3px)}
+    .exp-item:hover .mk{border-color:var(--accent);background:rgba(91,175,214,.07);transform:translateY(-2px)}
     .exp-item:hover .mk svg{transform:scale(1.08)}
     .exp-item h3{font-size:1rem;margin:0 0 8px}
     .exp-item p{font-size:.85rem;color:var(--muted);margin:0;line-height:1.55}
@@ -133,7 +133,7 @@
     .brands-marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent);mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
     .brands-track{display:flex;width:max-content;animation:brand-scroll 52s linear infinite}
     .brands-marquee:hover .brands-track{animation-play-state:paused}
-    .brands-set{display:flex;align-items:center;margin:0;padding:0;list-style:none}
+    .brands-set{display:flex;flex-shrink:0;min-width:var(--max);justify-content:space-between;align-items:center;margin:0;padding:0;list-style:none}
     .brands-set li{position:relative;padding-right:52px;font-size:.94rem;font-weight:600;letter-spacing:.01em;color:var(--soft);white-space:nowrap}
     .brands-set li::after{content:"";position:absolute;right:24px;top:50%;width:4px;height:4px;margin-top:-2px;border-radius:50%;background:var(--accent-2);opacity:.5}
     @keyframes brand-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
@@ -159,18 +159,14 @@
     details.row[open] .row-body{animation:acc-in .3s var(--ease)}
     .row-body{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--gap);padding:4px 4px 32px;border-top:1px solid var(--line-soft)}
     .row-body .col{padding-top:20px}
-    /* per-project cover visual (Selected Work only) */
-    .work .row-body{grid-template-columns:minmax(0,280px) minmax(0,1fr)}
-    .work .row-text{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--gap)}
-    .row-visual{align-self:start;margin-top:20px}
-    .pcover{position:relative;aspect-ratio:16/10;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:18px 20px;display:flex;flex-direction:column;justify-content:flex-end;gap:5px}
-    .pcover::before{content:attr(data-idx);position:absolute;top:-24px;right:4px;font-size:6.4rem;font-weight:700;line-height:1;letter-spacing:-.05em;color:var(--text);opacity:.06}
-    .pcover-k{position:relative;font-size:.58rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2)}
-    .pcover-t{position:relative;font-size:.95rem;font-weight:600;line-height:1.25;letter-spacing:-.01em;color:var(--text)}
-    .pcover-2{background:#101720}
-    .pcover-3{background:#0e151c}
-    .pcover-4{background:#0c1116}
-    .pcover-5{background:#0f1a20}
+    /* One reserved image per project; see assets/projects/README.md. */
+    .work .row-body{grid-template-columns:minmax(0,.36fr) minmax(0,.64fr);gap:28px}
+    .work .row-text{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
+    .row-visual{align-self:start;margin:20px 0 0;min-width:0}
+    .project-image{display:grid;place-items:center;width:100%;aspect-ratio:16/10;overflow:hidden;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+    .project-image img{width:100%;height:100%;object-fit:contain}
+    .project-image--photo img{object-fit:cover}
+    .project-image svg{width:32px;height:32px;color:var(--muted);opacity:.5}
     .row-body strong{display:block;color:var(--accent-2);font-size:.63rem;letter-spacing:.13em;text-transform:uppercase;margin-bottom:10px}
     .row-body p,.row-body li{font-size:.89rem;color:var(--soft);line-height:1.65}
     .row-body p{margin:0}
@@ -187,7 +183,7 @@
     /* education */
     .edu-primary{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
     .edu-card{position:relative;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:22px;min-height:156px;display:flex;flex-direction:column;transition:border-color .24s var(--ease),background .24s var(--ease),transform .24s var(--ease)}
-    .edu-card:hover{border-color:rgba(91,175,214,.32);background:#141922;transform:translateY(-3px)}
+    .edu-card:hover{border-color:rgba(91,175,214,.32);background:#141922;transform:translateY(-2px)}
     .edu-card::before{content:"";position:absolute;left:22px;right:0;bottom:0;height:2px;background:linear-gradient(90deg,var(--accent),transparent);transform:scaleX(.82);transform-origin:left;opacity:.7;transition:transform .26s var(--ease),opacity .26s var(--ease)}
     .edu-card:hover::before{transform:scaleX(1);opacity:1}
     .edu-card .k{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2);font-weight:700;margin-bottom:14px}
@@ -218,9 +214,8 @@
       .nav-desktop,.connect{display:none}
       .menu{display:block}
       .identity small{letter-spacing:.22em}
-      .hero{padding:56px 0 44px}
-      .hero-grid{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:34px}
-      .hero-media{min-height:380px}
+      .hero{padding:56px 0 72px}
+      .hero-grid{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:24px}
       .hero-media img{object-position:52% 18%}
       .hero h1{font-size:clamp(2.4rem,5.4vw,3.4rem)}
       .hero-lead,.hero-sub{max-width:none}
@@ -235,8 +230,8 @@
       .edu-primary{grid-template-columns:repeat(2,1fr)}
       .contact-box{grid-template-columns:1fr;padding:38px}
       .row-body{grid-template-columns:1fr;gap:0}
-      .work .row-body,.work .row-text{grid-template-columns:1fr}
-      .row-visual{max-width:400px;margin-bottom:4px}
+      .work .row-body{grid-template-columns:minmax(0,.4fr) minmax(0,.6fr);gap:24px}
+      .work .row-text{grid-template-columns:1fr;gap:0}
       .experience .row-body{padding-left:0}
     }
 
@@ -244,15 +239,17 @@
     @media(max-width:760px){
       .wrap{width:min(calc(100% - 32px),var(--max))}
       .head-in{min-height:66px}
-      .hero{padding:30px 0 40px}
+      .hero{padding:36px 0 64px}
       .hero-grid{grid-template-columns:1fr;gap:0}
-      .hero-media{margin-top:30px;min-height:0;aspect-ratio:16 / 10;max-height:300px;border-radius:12px}
+      .hero-media{margin-top:30px;min-height:0;aspect-ratio:16 / 10;max-height:340px;border-radius:10px}
       .hero-media img{object-position:52% 24%}
       .hero h1{font-size:clamp(2.4rem,11vw,3.3rem)}
       .hero-proof{grid-template-columns:1fr 1fr;gap:16px 22px}
       .hero .cta{width:100%}
       .hero .cta .btn{flex:1;min-width:140px}
-      section{padding:54px 0}
+      section{padding:68px 0}
+      .work .row-body{grid-template-columns:1fr;gap:0}
+      .row-visual{width:100%;max-width:480px}
       .expertise .grid{grid-template-columns:1fr;gap:24px}
       .exp-item,.exp-item:first-child,.exp-item:nth-child(3){padding:0 0 0 18px;border-left:1px solid var(--line)}
       .exp-item .mk{margin-bottom:12px}
@@ -275,7 +272,7 @@
       *{animation-duration:.001ms!important;transition-duration:.001ms!important}
       .brands-track{animation:none!important;width:auto;flex-wrap:wrap;transform:none}
       .brands-marquee{overflow:visible;-webkit-mask-image:none;mask-image:none}
-      .brands-set{flex-wrap:wrap;gap:8px 26px}
+      .brands-set{min-width:0;justify-content:flex-start;flex-wrap:wrap;gap:8px 26px}
       .brands-set[aria-hidden="true"]{display:none}
       .brands-set li{padding-right:0}
       .brands-set li::after{display:none}
@@ -420,12 +417,12 @@
             </div>
           </summary>
           <div class="row-body">
-            <div class="row-visual">
-              <div class="pcover pcover-1" data-idx="01" aria-hidden="true">
-                <span class="pcover-k">Product · QA automation</span>
-                <span class="pcover-t">Intelligent Content QA System</span>
+            <figure class="row-visual" data-project-image="content-qa">
+              <!-- Replace the placeholder with an img in this frame; retain the aspect ratio. -->
+              <div class="project-image" role="img" aria-label="Project image not yet available">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><rect x="4" y="6" width="24" height="20" rx="2"/><circle cx="11" cy="12" r="2"/><path d="m5 23 7-7 5 5 4-4 6 6"/></svg>
               </div>
-            </div>
+            </figure>
             <div class="row-text">
               <div class="col"><strong>What I owned</strong><p>Discovery, strategy, workshops, requirements, planning, cross-functional coordination and AI-assisted product development.</p></div>
               <div class="col"><strong>Evidence / outcome</strong><ul><li>Functional, reusable system covering master, pre-live and post-live QA</li><li>Checks for titles, metadata, headings, CTAs, links, keywords and brand rules</li><li>~6 months coordinating contributors across different projects and capabilities</li></ul></div>
@@ -443,12 +440,12 @@
             </div>
           </summary>
           <div class="row-body">
-            <div class="row-visual">
-              <div class="pcover pcover-2" data-idx="02" aria-hidden="true">
-                <span class="pcover-k">Estimation · Planning</span>
-                <span class="pcover-t">Marketing Operations Estimator</span>
+            <figure class="row-visual" data-project-image="operations-estimator">
+              <!-- Replace the placeholder with an img in this frame; retain the aspect ratio. -->
+              <div class="project-image" role="img" aria-label="Project image not yet available">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><rect x="4" y="6" width="24" height="20" rx="2"/><circle cx="11" cy="12" r="2"/><path d="m5 23 7-7 5 5 4-4 6 6"/></svg>
               </div>
-            </div>
+            </figure>
             <div class="row-text">
               <div class="col"><strong>What I owned</strong><p>Concept, requirements, complexity drivers, assumptions, dependencies, iteration and continued product development.</p></div>
               <div class="col"><strong>Evidence / outcome</strong><ul><li>Reusable estimation logic across Marketing Operations capabilities</li><li>Explicit assumptions, dependencies and complexity drivers</li><li>Working framework that keeps evolving with operational needs</li></ul></div>
@@ -466,12 +463,12 @@
             </div>
           </summary>
           <div class="row-body">
-            <div class="row-visual">
-              <div class="pcover pcover-3" data-idx="03" aria-hidden="true">
-                <span class="pcover-k">Facilitation · 22 stakeholders</span>
-                <span class="pcover-t">Process Transformation Workshop</span>
+            <figure class="row-visual" data-project-image="process-workshop">
+              <!-- Replace the placeholder with an img in this frame; retain the aspect ratio. -->
+              <div class="project-image project-image--photo" role="img" aria-label="Project image not yet available">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><rect x="4" y="6" width="24" height="20" rx="2"/><circle cx="11" cy="12" r="2"/><path d="m5 23 7-7 5 5 4-4 6 6"/></svg>
               </div>
-            </div>
+            </figure>
             <div class="row-text">
               <div class="col"><strong>What I owned</strong><p>End-to-end workshop design and facilitation, AS-IS mapping, synthesis, prioritisation and executive documentation for a global hospitality group.</p></div>
               <div class="col"><strong>Evidence / outcome</strong><ul><li>22-person diagnostic and ideation session</li><li>Pain points and dependencies translated into prioritised improvement areas</li><li>Raw, detailed and executive outputs delivered after the workshop</li></ul></div>
@@ -489,12 +486,12 @@
             </div>
           </summary>
           <div class="row-body">
-            <div class="row-visual">
-              <div class="pcover pcover-4" data-idx="04" aria-hidden="true">
-                <span class="pcover-k">CGI production · Team leadership</span>
-                <span class="pcover-t">Automotive CGI Production</span>
+            <figure class="row-visual" data-project-image="automotive-cgi">
+              <!-- Replace the placeholder with an img in this frame; retain the aspect ratio. -->
+              <div class="project-image project-image--photo" role="img" aria-label="Project image not yet available">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><rect x="4" y="6" width="24" height="20" rx="2"/><circle cx="11" cy="12" r="2"/><path d="m5 23 7-7 5 5 4-4 6 6"/></svg>
               </div>
-            </div>
+            </figure>
             <div class="row-text">
               <div class="col"><strong>What I owned</strong><p>Led the interior-lighting function for a five-person CGI team for a global premium automotive brand — supporting onboarding, reviewing quality and keeping delivery consistent.</p></div>
               <div class="col"><strong>Evidence / outcome</strong><ul><li>Team leadership and onboarding support for a five-person function</li><li>Quality review and consistency across production</li><li>Hands-on technical depth informing delivery decisions</li></ul></div>
@@ -512,12 +509,12 @@
             </div>
           </summary>
           <div class="row-body">
-            <div class="row-visual">
-              <div class="pcover pcover-5" data-idx="05" aria-hidden="true">
-                <span class="pcover-k">GenAI · Workflow adoption</span>
-                <span class="pcover-t">GenAI Enablement</span>
+            <figure class="row-visual" data-project-image="genai-workflow">
+              <!-- Replace the placeholder with an img in this frame; retain the aspect ratio. -->
+              <div class="project-image" role="img" aria-label="Project image not yet available">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><rect x="4" y="6" width="24" height="20" rx="2"/><circle cx="11" cy="12" r="2"/><path d="m5 23 7-7 5 5 4-4 6 6"/></svg>
               </div>
-            </div>
+            </figure>
             <div class="row-text">
               <div class="col"><strong>What I owned</strong><p>Use-case exploration, workflow experimentation, training design and translation of operational needs into practical prototypes and tools.</p></div>
               <div class="col"><strong>Evidence / outcome</strong><ul><li>Internal ComfyUI / GenAI enablement and knowledge transfer</li><li>Applied AI experimentation inside digital-production workflows</li><li>GenAI Hub participation across ideation, use cases, training and innovation</li></ul></div>
