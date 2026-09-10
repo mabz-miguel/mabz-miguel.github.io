@@ -163,8 +163,8 @@
     .work .row-body{grid-template-columns:minmax(0,.36fr) minmax(0,.64fr);gap:28px}
     .work .row-text{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
     .row-visual{align-self:start;margin:20px 0 0;min-width:0}
-    .project-image{--project-icon-color:var(--accent);display:grid;place-items:center;width:100%;aspect-ratio:16/10;padding:24px;background:none}
-    .project-icon{display:block;width:clamp(80px,12vw,128px);max-width:100%;height:auto;aspect-ratio:1;fill:none;color:var(--project-icon-color);stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .project-image{--project-icon-color:#E9EDF0;display:grid;place-items:center;width:100%;aspect-ratio:16/10;padding:24px;background:none}
+    .project-icon{display:block;width:clamp(80px,12vw,128px);max-width:100%;height:auto;aspect-ratio:144/120;color:var(--project-icon-color)}
     .row-body strong{display:block;color:var(--accent-2);font-size:.63rem;letter-spacing:.13em;text-transform:uppercase;margin-bottom:10px}
     .row-body p,.row-body li{font-size:.89rem;color:var(--soft);line-height:1.65}
     .row-body p{margin:0}
@@ -417,9 +417,8 @@
           <div class="row-body">
             <figure class="row-visual" data-project-image="content-qa">
               <div class="project-image">
-                <svg class="project-icon" viewBox="0 0 96 96" aria-hidden="true" focusable="false">
-                  <path d="M18 18h36a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6H32L20 64V54h-2a6 6 0 0 1-6-6V24a6 6 0 0 1 6-6Z"/>
-                  <path d="M60 38h18a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6h-2v10L64 74H44a6 6 0 0 1-6-6v-7M29 30a7 7 0 0 1 14 0c0 5-7 5-7 10M36 46h.01M54 59l6 6 12-13"/>
+                <svg class="project-icon" viewBox="0 0 144 120" aria-hidden="true" focusable="false">
+                  <use href="assets/projects/QA.svg#project-icon"></use>
                 </svg>
               </div>
             </figure>
@@ -442,10 +441,8 @@
           <div class="row-body">
             <figure class="row-visual" data-project-image="operations-estimator">
               <div class="project-image">
-                <svg class="project-icon" viewBox="0 0 96 96" aria-hidden="true" focusable="false">
-                  <rect x="12" y="18" width="28" height="22" rx="4"/><rect x="12" y="56" width="28" height="22" rx="4"/>
-                  <path d="M40 29h10v38H40M50 48h8M20 29h12M20 67h12"/><circle cx="72" cy="48" r="14"/>
-                  <path d="M76 41h-6a4 4 0 0 0 0 8h4a4 4 0 0 1 0 8h-6M72 37v24"/>
+                <svg class="project-icon" viewBox="0 0 144 120" aria-hidden="true" focusable="false">
+                  <use href="assets/projects/stimator.svg#project-icon"></use>
                 </svg>
               </div>
             </figure>
@@ -468,9 +465,8 @@
           <div class="row-body">
             <figure class="row-visual" data-project-image="process-workshop">
               <div class="project-image">
-                <svg class="project-icon" viewBox="0 0 96 96" aria-hidden="true" focusable="false">
-                  <circle cx="48" cy="38" r="9"/><path d="M32 64v-5a16 16 0 0 1 32 0v5Z M28 30l-7-7M68 30l7-7M27 58l-8 7M69 58l8 7M48 70v8"/>
-                  <circle cx="17" cy="19" r="6"/><circle cx="79" cy="19" r="6"/><circle cx="15" cy="70" r="6"/><circle cx="81" cy="70" r="6"/><circle cx="48" cy="84" r="5"/>
+                <svg class="project-icon" viewBox="0 0 144 120" aria-hidden="true" focusable="false">
+                  <use href="assets/projects/DT.svg#project-icon"></use>
                 </svg>
               </div>
             </figure>
@@ -493,9 +489,8 @@
           <div class="row-body">
             <figure class="row-visual" data-project-image="automotive-cgi">
               <div class="project-image">
-                <svg class="project-icon" viewBox="0 0 96 96" aria-hidden="true" focusable="false">
-                  <path d="M78 51v22a5 5 0 0 1-5 5H17a5 5 0 0 1-5-5V23a5 5 0 0 1 5-5h43M20 27h33M20 27v42h49V58M41 73h8"/>
-                  <path d="m47 48 28-28a5 5 0 0 1 7 7L54 55l-11 4 4-11ZM70 25l7 7M47 48l7 7"/>
+                <svg class="project-icon" viewBox="0 0 144 120" aria-hidden="true" focusable="false">
+                  <use href="assets/projects/CGI.svg#project-icon"></use>
                 </svg>
               </div>
             </figure>
@@ -518,9 +513,8 @@
           <div class="row-body">
             <figure class="row-visual" data-project-image="genai-workflow">
               <div class="project-image">
-                <svg class="project-icon" viewBox="0 0 96 96" aria-hidden="true" focusable="false">
-                  <path d="M19 79V63c-6-5-8-12-7-20 1-13 10-22 23-22 8 0 14 4 18 10M30 78V64h8a6 6 0 0 0 6-6v-9h6l-6-12M77 79V63c6-5 8-12 7-20-1-13-10-22-23-22M66 78V64h-8a6 6 0 0 1-6-6v-3M65 35l-8 9M65 35l9 10M57 44l6 10M74 45l-11 9"/>
-                  <circle cx="65" cy="31" r="4"/><circle cx="54" cy="47" r="4"/><circle cx="77" cy="48" r="4"/><circle cx="65" cy="58" r="4"/>
+                <svg class="project-icon" viewBox="0 0 144 120" aria-hidden="true" focusable="false">
+                  <use href="assets/projects/IA.svg#project-icon"></use>
                 </svg>
               </div>
             </figure>

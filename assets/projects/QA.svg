@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 120" fill="none" stroke="currentColor">
+  <g id="project-icon" transform="translate(13.54 7.94)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g>
+      <g>
+        <rect x="1" y="1" width="114.92" height="45.15" />
+        <line x1="43.83" y1="1" x2="43.83" y2="46.15" />
+        <line x1="58.46" y1="13.03" x2="103.6" y2="13.03" />
+        <line x1="58.46" y1="23.57" x2="84.47" y2="23.57" />
+        <line x1="93.47" y1="23.57" x2="103.6" y2="23.57" />
+        <line x1="58.46" y1="34.12" x2="84.47" y2="34.12" />
+        <line x1="97.96" y1="34.12" x2="103.6" y2="34.12" />
+        <rect x="1" y="57.98" width="114.92" height="45.15" />
+        <line x1="43.83" y1="57.98" x2="43.83" y2="103.12" />
+        <line x1="58.46" y1="70.01" x2="103.6" y2="70.01" />
+        <line x1="58.46" y1="80.55" x2="84.47" y2="80.55" />
+        <line x1="93.47" y1="80.55" x2="103.6" y2="80.55" />
+        <line x1="58.46" y1="91.1" x2="84.47" y2="91.1" />
+        <line x1="97.96" y1="91.1" x2="103.6" y2="91.1" />
+        <rect x="13.35" y="11.94" width="16.66" height="20.31" rx="8.33" ry="8.33" />
+        <line x1="23.74" y1="25.62" x2="32.27" y2="32.25" />
+        <line x1="15.44" y1="86.55" x2="28.59" y2="86.55" />
+        <polyline points="30.79 91.55 21.86 71.24 13.35 91.55" />
+      </g>
+    </g>
+  </g>
+</svg>

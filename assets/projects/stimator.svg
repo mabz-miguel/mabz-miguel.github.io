@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 120" fill="none" stroke="currentColor">
+  <g id="project-icon" transform="translate(26.6 7.94)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g>
+      <g>
+        <circle cx="45.39" cy="76.19" r="26.93" />
+        <rect x="1" y="1" width="35.45" height="31.95" rx="4.04" ry="4.04" />
+        <line x1="10.54" y1="11.52" x2="26.52" y2="11.52" />
+        <line x1="10.54" y1="23.01" x2="18.73" y2="23.01" />
+        <path d="M18.53,32.95v10.65c0,2.01.93,3.9,2.53,5.12l7.96,6.11" />
+        <rect x="54.35" y="1" width="35.45" height="31.95" rx="4.04" ry="4.04" transform="translate(144.16 33.95) rotate(-180)" />
+        <line x1="80.26" y1="11.52" x2="64.29" y2="11.52" />
+        <line x1="80.26" y1="23.01" x2="64.29" y2="23.01" />
+        <path d="M72.27,32.95v10.65c0,2.01-.93,3.9-2.53,5.12l-7.96,6.11" />
+        <path d="M39.13,81.77c0,3.14,2.76,5.68,6.17,5.68s6.17-2.54,6.17-5.68-2.49-4.85-6.17-5.68c-3.32-.75-6.17-2.54-6.17-5.68s2.76-5.68,6.17-5.68,6.17,2.54,6.17,5.68" />
+        <line x1="45.3" y1="64.72" x2="45.3" y2="59.3" />
+        <line x1="45.3" y1="92.81" x2="45.3" y2="87.39" />
+      </g>
+    </g>
+  </g>
+</svg>
