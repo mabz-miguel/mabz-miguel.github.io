@@ -160,11 +160,11 @@
     .row-body{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--gap);padding:4px 4px 32px;border-top:1px solid var(--line-soft)}
     .row-body .col{padding-top:20px}
     /* Inline project SVGs share one transparent frame and CSS-controlled stroke. */
-    .work .row-body{grid-template-columns:minmax(0,.36fr) minmax(0,.64fr);gap:28px}
+    .work .row-body{grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:24px}
     .work .row-text{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
-    .row-visual{align-self:start;margin:20px 0 0;min-width:0}
-    .project-image{--project-icon-color:#E9EDF0;display:grid;place-items:center;width:100%;aspect-ratio:16/10;padding:24px;background:none}
-    .project-icon{display:block;width:clamp(80px,12vw,128px);max-width:100%;height:auto;aspect-ratio:144/120;color:var(--project-icon-color)}
+    .row-visual{align-self:stretch;margin:20px 0 0;min-width:0}
+    .project-image{--project-icon-color:var(--accent);display:grid;place-items:center;width:100%;height:100%;padding:0 16px;background:none}
+    .project-icon{display:block;width:128px;max-width:100%;height:auto;aspect-ratio:144/120;color:var(--project-icon-color)}
     .row-body strong{display:block;color:var(--accent-2);font-size:.63rem;letter-spacing:.13em;text-transform:uppercase;margin-bottom:10px}
     .row-body p,.row-body li{font-size:.89rem;color:var(--soft);line-height:1.65}
     .row-body p{margin:0}
@@ -247,7 +247,8 @@
       .hero .cta .btn{flex:1;min-width:140px}
       section{padding:68px 0}
       .work .row-body{grid-template-columns:1fr;gap:0}
-      .row-visual{width:100%;max-width:480px}
+      .row-visual{width:100%;max-width:none}
+      .project-image{height:auto;padding:0}
       .expertise .grid{grid-template-columns:1fr;gap:24px}
       .exp-item,.exp-item:first-child,.exp-item:nth-child(3){padding:0 0 0 18px;border-left:1px solid var(--line)}
       .exp-item .mk{margin-bottom:12px}
