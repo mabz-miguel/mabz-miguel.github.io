@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Miguel Ángel Ballesteros Zafra — Digital Project Manager — CV</title>
 <style>
-  :root{--ink:#1b1b1b;--soft:#4a4a4a;--muted:#6b6b6b;--gold:#9a7433;--line:#d9d5cc;--bg:#ffffff}
+  :root{--ink:#1b1b1b;--soft:#4a4a4a;--muted:#6b6b6b;--accent:#5BAFD6;--accent-ink:#2F718F;--line:#D5E1E7;--bg:#ffffff}
   *{box-sizing:border-box}
-  html,body{margin:0;background:#f2f0ec;color:var(--ink);font-family:"DM Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;font-size:10.6pt}
-  .page{max-width:820px;margin:24px auto;background:var(--bg);padding:44px 52px;box-shadow:0 8px 40px rgba(0,0,0,.12)}
+  html,body{margin:0;background:#f2f0ec;color:var(--ink);font-family:"DM Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-variant-ligatures:none;font-feature-settings:"liga" 0;line-height:1.5;font-size:10.6pt}
+  .page{max-width:820px;margin:24px auto;background:var(--bg);padding:44px 52px;border-top:4px solid var(--accent);box-shadow:0 8px 40px rgba(0,0,0,.12)}
   h1{font-size:21pt;margin:0;letter-spacing:-.01em}
-  .role{font-size:11.5pt;font-weight:700;color:var(--gold);margin:3px 0 2px;letter-spacing:.02em;text-transform:uppercase}
+  .role{font-size:11.5pt;font-weight:700;color:var(--accent-ink);margin:3px 0 2px;letter-spacing:.02em;text-transform:uppercase}
   .tagline{font-size:9.6pt;color:var(--soft);margin:0 0 6px}
   .contact{font-size:9pt;color:var(--muted);margin:0}
   .contact a{color:var(--muted);text-decoration:none}
-  h2{font-size:9.6pt;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--gold);border-bottom:1px solid var(--line);padding-bottom:4px;margin:20px 0 10px}
+  h2{font-size:9.6pt;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--accent-ink);border-bottom:1px solid var(--line);padding-bottom:4px;margin:20px 0 10px}
   p{margin:0 0 8px}
   .summary{color:var(--soft)}
   ul{margin:4px 0 8px;padding-left:16px}
@@ -32,12 +32,15 @@
   .edu{display:grid;grid-template-columns:1fr auto;gap:2px 18px;font-size:9.6pt}
   .edu div:nth-child(odd){color:var(--ink)}
   .edu div:nth-child(even){color:var(--muted);text-align:right;white-space:nowrap}
+  .edu .edu-subhead{grid-column:1 / -1;color:var(--accent-ink);font-size:8.5pt;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin:7px 0 2px;text-align:left;white-space:normal}
+  .edu div.edu-name{color:var(--ink);text-align:left;white-space:normal}
+  .edu div.edu-year{color:var(--muted);text-align:right;white-space:nowrap}
   .kv{font-size:9.5pt;color:var(--soft)}
   .kv b{color:var(--ink)}
   @page{size:A4;margin:14mm}
   @media print{
     html,body{background:#fff;font-size:10pt}
-    .page{max-width:none;margin:0;padding:0;box-shadow:none}
+    .page{max-width:none;margin:0;padding:0;border-top:4px solid var(--accent);box-shadow:none}
     h2{margin-top:15px}
     .job,.proj{page-break-inside:avoid}
   }
@@ -70,10 +73,10 @@
   <h2>Professional Experience</h2>
 
   <div class="job">
-    <div class="job-head"><span class="job-title">Digital Project Management · GenAI Adoption &amp; Digital Innovation</span><span class="job-dates">2022 – Present</span></div>
+    <div class="job-head"><span class="job-title">Assistant Manager · GenAI Adoption &amp; Digital Innovation</span><span class="job-dates">2022 – Present</span></div>
     <div class="job-org">Accenture Marketing Operations — Madrid, Spain</div>
     <ul>
-      <li>Coordinate multidisciplinary teams of up to 10 people across technical, creative and business profiles; led a five-person automotive CGI interior-lighting function with onboarding support, quality review and delivery consistency.</li>
+      <li>Coordinate multidisciplinary technical, creative and business profiles across digital-production and innovation initiatives; led a five-person automotive CGI interior-lighting function with onboarding support, quality review and delivery consistency.</li>
       <li>Translate operational needs into practical solutions, working systems and internal tools, including an Intelligent Content QA System and a reusable project-estimation framework.</li>
       <li>Design and facilitate stakeholder workshops to diagnose issues, align priorities and turn findings into actionable next steps.</li>
       <li>R&amp;D and automation initiatives contributed to a 25% reduction in operational costs, 40% faster time-to-market and productivity increases of up to 40%.</li>
@@ -110,7 +113,7 @@
   <h2>Selected Projects</h2>
   <p class="proj"><b>Intelligent Content QA System:</b> Functional, reusable system for AI-assisted web-content validation, comparing master vs. pre-production outputs and structuring reusable QA criteria.</p>
   <p class="proj"><b>Marketing Operations Estimator:</b> Reusable estimation framework using complexity drivers, assumptions, dependencies and benchmark logic to improve planning consistency.</p>
-  <p class="proj"><b>Process Transformation Workshop — Global Hospitality Group:</b> Designed and facilitated a diagnostic session with 22 stakeholders, translating findings into actionable improvement areas and executive outputs.</p>
+  <p class="proj"><b>Automotive CGI Production &amp; Team Leadership:</b> Led the interior-lighting function for a five-person CGI team, supporting onboarding, reviewing quality and maintaining delivery consistency for a global premium automotive brand.</p>
 
   <h2>Education &amp; Certifications</h2>
   <div class="edu">
@@ -120,6 +123,11 @@
     <div>CRO &amp; Product Designer — Gen/D</div><div>2022</div>
     <div>UX/UI Advanced — Mr Marcel School</div><div>2020</div>
     <div>VR / AR / XR Development Expert — UTAD</div><div>2017–2018</div>
+    <div class="edu-subhead">Additional specialist training</div>
+    <div class="edu-name">The Creative Process in Graphic Design — IED Madrid</div><div class="edu-year">2021</div>
+    <div class="edu-name">How Designers Make Decisions — La Nave Nodriza</div><div class="edu-year">2021</div>
+    <div class="edu-name">Digital Art for Animation and Video Games — Animum</div><div class="edu-year">2013</div>
+    <div class="edu-name">Graphic Art and Advertising — C.E.N.P.</div><div class="edu-year">2001–2004</div>
   </div>
 
   <h2>Tools &amp; Languages</h2>

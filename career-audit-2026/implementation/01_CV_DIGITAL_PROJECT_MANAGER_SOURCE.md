@@ -29,7 +29,7 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 ### Assistant Manager | GenAI Adoption & Digital Innovation — Accenture Marketing Operations
 **Madrid, Spain | 2022 – Present**
 
-- Coordinate multidisciplinary teams of up to 10 people across technical, creative and business profiles; led a five-person automotive CGI interior-lighting function with onboarding support, quality review and delivery consistency.
+- Coordinate multidisciplinary technical, creative and business profiles across digital-production and innovation initiatives; led a five-person automotive CGI interior-lighting function with onboarding support, quality review and delivery consistency.
 - Translate operational needs into practical solutions, working systems and internal tools, including an Intelligent Content QA System and reusable project-estimation framework.
 - Design and facilitate stakeholder workshops to diagnose issues, align priorities and turn findings into actionable next steps.
 - R&D and automation initiatives contributed to a 25% reduction in operational costs, 40% faster time-to-market and productivity increases of up to 40%.
@@ -58,7 +58,7 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 
 **Marketing Operations Estimator:** Reusable estimation framework using complexity drivers, assumptions, dependencies and benchmark logic to improve planning consistency.
 
-**Process Transformation Workshop — Global Hospitality Group:** Designed and facilitated a diagnostic session with 22 stakeholders, translating findings into actionable improvement areas and executive outputs.
+**Automotive CGI Production & Team Leadership:** Led the interior-lighting function for a five-person CGI team, supporting onboarding, reviewing quality and maintaining delivery consistency for a global premium automotive brand.
 
 ## Education & Certifications
 
@@ -68,6 +68,13 @@ Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, de
 - CRO & Product Designer — Gen/D, 2022
 - UX/UI Advanced — Mr Marcel School, 2020
 - VR / AR / XR Development Expert — UTAD, 2017–2018
+
+### Additional specialist training
+
+- The Creative Process in Graphic Design — IED Madrid, 2021
+- How Designers Make Decisions — La Nave Nodriza, 2021
+- Digital Art for Animation and Video Games — Animum, 2013
+- Graphic Art and Advertising — C.E.N.P., 2001–2004
 
 ## Tools & Languages
 
@@ -82,7 +89,7 @@ Keep these constraints in every future CV adaptation unless Miguel explicitly va
 - Operational-cost metric: **25%**, not 30%.
 - Time-to-market: **40%**.
 - Productivity increase: **up to 40%**.
-- Team coordination: **up to 10 people**, not 50.
+- Describe multidisciplinary coordination without using a generic team-size ceiling. Keep the concrete **five-person** figure only for the automotive CGI interior-lighting function, where its context is clear.
 - Five-person leadership evidence is specifically the automotive CGI **interior-lighting function**, including onboarding support, quality review and delivery consistency.
 - `Agile/Scrum` may be described as **foundations / Agile-informed delivery based on Google PM training**. Do not imply a formal Scrum Master role or extensive professional Scrum practice unless validated.
 - BlackSheepStudio budget evidence is **explicitly confirmed by Miguel**: he personally handled client management, project / product definition, production, estimates and project budgets as founder and director.
