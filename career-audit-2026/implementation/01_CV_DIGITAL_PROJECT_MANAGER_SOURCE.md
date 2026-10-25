@@ -14,7 +14,7 @@ Madrid, Spain · mabz.miguel@gmail.com · linkedin.com/in/miguelballesteroszafra
 
 ## Professional Summary
 
-Digital Project Manager with 20+ years across business, design and technology. Turns complex needs into viable projects by understanding the problem, shaping the solution and leading multidisciplinary delivery. Combines product thinking, UX/UI and creative technology with practical judgement on scope, estimates, budgets and quality. Experience spans studio ownership, digital products, process transformation and GenAI adoption. Connects client priorities with what teams can build, from discovery to final delivery.
+Digital Project Manager with 20+ years across business, design and technology. Turns complex needs into viable projects, connecting product thinking, UX/UI and creative technology with scope, estimates, budgets and quality. Experience spans studio ownership, digital products, process transformation and GenAI adoption, with end-to-end responsibility from discovery to delivery.
 
 ## Capabilities
 
@@ -26,7 +26,7 @@ Creative Technology — 3D/CGI · Motion Graphics · AR/VR/XR · GenAI · Automa
 
 ## Professional Experience
 
-Assistant Manager · GenAI Adoption & Digital Innovation 2022 – Present
+Assistant Manager · GenAI Adoption & Digital Innovation Jun 2025 – Present
 
 Accenture Marketing Operations — Madrid, Spain
 
@@ -40,13 +40,19 @@ Accenture Marketing Operations — Madrid, Spain
 
 - R&D and automation initiatives contributed to 25% lower operational costs, 40% faster time-to-market and productivity increases of up to 40%.
 
-UX/UI Designer · XR Expert · Digital Experience 2020 – 2022
+Media & Graphics Design Specialist Mar 2023 – Jun 2025
+
+Accenture Marketing Operations — GenAI & GTM responsibilities
+
+- Delivered 3D/CGI and realtime content, connected production capabilities with business needs, and explored GenAI workflows to support team adoption and go-to-market initiatives.
+
+UX/UI Designer · XR Expert · Digital Experience Jan 2019 – Oct 2022
 
 Accenture Song / Fjord / Interactive — Madrid, Spain
 
-- Designed and delivered UX/UI and immersive experiences for international clients, including realtime showrooms, XR/AR and product communication. Connected design decisions with technical possibilities and production requirements across disciplines.
+- Designed and delivered UX/UI, realtime showrooms and XR/AR experiences for international clients, connecting design decisions with technical possibilities and production requirements.
 
-Founder · Digital Studio Director 2014 – 2020
+Founder · Digital Studio Director 2014 – 2019
 
 BlackSheepStudio — Spain
 
@@ -60,7 +66,7 @@ Art Director · Graphic Designer · 3D Specialist 2003 – 2014
 
 Agencies & Creative Studios — Spain
 
-- Built hands-on depth across art direction, design, branding, advertising, UX/UI and 3D/CGI — the practical foundation for assessing scope, discussing technical trade-offs and setting realistic delivery expectations.
+- Built hands-on depth across art direction, branding, advertising, UX/UI and 3D/CGI, informing scope, technical trade-offs and delivery expectations.
 
 ## Selected Projects & Business Value
 
