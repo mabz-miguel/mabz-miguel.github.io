@@ -100,9 +100,10 @@
     .hero-lead{font-size:clamp(1rem,1.1vw,1.06rem);color:var(--soft);max-width:620px;margin:0 0 12px}
     .hero-lead strong{color:var(--text);font-weight:600}
     .hero-sub{font-size:.9rem;color:var(--muted);max-width:620px;margin:0}
-    .hero-proof{margin:24px 0 0;border-top:1px solid var(--line);padding-top:20px;display:grid;grid-template-columns:repeat(2,1fr);gap:18px var(--gap)}
-    .hp-n{display:block;font-size:1.2rem;font-weight:700;color:var(--text);letter-spacing:-.02em;white-space:nowrap}
-    .hp-l{display:block;font-size:.68rem;color:var(--muted);margin-top:4px;line-height:1.42}
+    .hero-approach{margin:24px 0 0;border-top:1px solid var(--line)}
+    .hero-approach>div{display:grid;grid-template-columns:140px minmax(0,1fr);gap:18px;padding:15px 0;border-bottom:1px solid var(--line-soft)}
+    .hero-approach dt{font-size:.85rem;font-weight:600;color:var(--text)}
+    .hero-approach dd{margin:0;font-size:.8rem;color:var(--soft);line-height:1.55}
     .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
 
     /* ---- sections ---- */
@@ -246,7 +247,7 @@
       .hero-media{margin-top:30px;min-height:0;aspect-ratio:16 / 10;max-height:340px;border-radius:10px}
       .hero-media img{object-position:52% 24%}
       .hero h1{font-size:clamp(2.4rem,11vw,3.3rem)}
-      .hero-proof{grid-template-columns:1fr 1fr;gap:16px 22px}
+      .hero-approach>div{grid-template-columns:1fr;gap:4px;padding:13px 0}
       .hero .cta{width:100%}
       .hero .cta .btn{flex:1;min-width:140px}
       section{padding:68px 0}
@@ -328,12 +329,11 @@
         <p class="hero-desc">Business &nbsp;·&nbsp; Design &nbsp;·&nbsp; Technology</p>
         <p class="hero-lead">I turn complex business needs into <strong>clear, viable projects</strong> — understanding the problem, shaping the solution and leading teams from discovery to delivery.</p>
         <p class="hero-sub">With 20+ years across business, design and technology, I connect what clients need with what teams can build. I bring product thinking, creative and technical depth, and commercial judgement to decisions about scope, investment and execution.</p>
-        <div class="hero-proof" aria-label="Selected professional evidence">
-          <div class="hp"><span class="hp-n">20+ years</span><span class="hp-l">Connecting business, design &amp; technology</span></div>
-          <div class="hp"><span class="hp-n">25%</span><span class="hp-l">Contributed to lower operational costs</span></div>
-          <div class="hp"><span class="hp-n">40%</span><span class="hp-l">Contributed to faster time-to-market</span></div>
-          <div class="hp"><span class="hp-n">End-to-end</span><span class="hp-l">Ownership from client discovery to final delivery</span></div>
-        </div>
+        <dl class="hero-approach" aria-label="How I approach projects">
+          <div><dt>Business clarity</dt><dd>Understand client needs, challenge assumptions and identify where change can create value.</dd></div>
+          <div><dt>Viable solutions</dt><dd>Balance user experience, technical feasibility and potential return to define the right scope.</dd></div>
+          <div><dt>Delivery ownership</dt><dd>Align people, budgets and priorities, and stay accountable for quality through final delivery.</dd></div>
+        </dl>
         <div class="cta">
           <a class="btn primary" href="assets/Miguel_Angel_Ballesteros_CV_Digital_Project_Manager.pdf">Download CV</a>
           <a class="btn" href="#contact">Contact <span class="arw" aria-hidden="true">&rarr;</span></a>
