@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script>try{document.documentElement.classList.add('js')}catch(e){}</script>
   <title>Digital Project Manager | Miguel Ángel Ballesteros</title>
-  <meta name="description" content="Miguel Ángel Ballesteros is a Digital Project Manager with 20+ years across digital production, 3D/CGI, XR and design, coordinating people, scope, budgets, quality and delivery — and applying AI and automation when they add value.">
+  <meta name="description" content="Miguel Ángel Ballesteros is a Digital Project Manager with 20+ years across business, design and technology, leading people, scope, budgets, quality and delivery — and applying AI and automation when they add value.">
   <meta name="theme-color" content="#080A0D">
   <link rel="canonical" href="https://mabz-miguel.github.io/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23080A0D'/%3E%3Ctext x='16' y='22' font-family='DejaVu Sans,Verdana,sans-serif' font-size='16' font-weight='700' fill='%235BAFD6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Digital Project Manager | Miguel Ángel Ballesteros">
-  <meta property="og:description" content="Digital project delivery backed by 20+ years of hands-on experience across production, 3D/CGI, XR and design.">
+  <meta property="og:description" content="Digital Project Manager connecting business, design and technology through 20+ years of hands-on experience and end-to-end delivery.">
   <meta property="og:url" content="https://mabz-miguel.github.io/">
   <meta property="og:image" content="https://mabz-miguel.github.io/assets/miguel-angel-ballesteros-portrait.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Miguel Ángel Ballesteros Zafra","jobTitle":"Digital Project Manager","image":"https://mabz-miguel.github.io/assets/miguel-angel-ballesteros-portrait.jpg","url":"https://mabz-miguel.github.io/","address":{"@type":"PostalAddress","addressLocality":"Madrid","addressCountry":"ES"},"sameAs":["https://www.linkedin.com/in/miguelballesteroszafra"],"knowsAbout":["Digital project management","Digital production","3D/CGI","XR","Generative AI","Workflow automation","Stakeholder management","Project estimation","Budget management"]}
+  {"@context":"https://schema.org","@type":"Person","name":"Miguel Ángel Ballesteros Zafra","jobTitle":"Digital Project Manager","image":"https://mabz-miguel.github.io/assets/miguel-angel-ballesteros-portrait.jpg","url":"https://mabz-miguel.github.io/","address":{"@type":"PostalAddress","addressLocality":"Madrid","addressCountry":"ES"},"sameAs":["https://www.linkedin.com/in/miguelballesteroszafra"],"knowsAbout":["Digital project management","Product management","Design Thinking","UX/UI","Business cases","Digital production","3D/CGI","XR","Generative AI","Workflow automation","Stakeholder management","Project estimation","Budget management"]}
   </script>
   <style>
     :root{
@@ -117,7 +117,9 @@
 
     /* expertise strip */
     .expertise .split{grid-template-columns:fit-content(340px) minmax(0,1fr);gap:40px;align-items:start}
-    .expertise .grid{display:grid;grid-template-columns:repeat(4,1fr)}
+    .expertise .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+    .capabilities-intro{max-width:760px;margin-bottom:36px}
+    .capabilities-intro p{max-width:none}
     .exp-item{padding:0 22px;border-left:1px solid var(--line)}
     .exp-item:first-child{padding-left:0;border-left:0}
     .exp-item .mk{width:32px;height:32px;border:1px solid var(--line-soft);border-radius:8px;display:grid;place-items:center;color:var(--accent);margin-bottom:18px;transition:border-color .22s var(--ease),background .22s var(--ease),transform .22s var(--ease)}
@@ -150,7 +152,7 @@
     .work .row-head{grid-template-columns:46px minmax(0,1fr) auto 34px}
     .num{font-size:1rem;font-weight:700;color:var(--accent-2);letter-spacing:.02em}
     .row-title h3{font-size:1.15rem;margin:0 0 4px;font-weight:600}
-    .row-title p{margin:0;font-size:.85rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .row-title p{margin:0;font-size:.85rem;color:var(--muted)}
     .tags{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
     .tag{font-size:.62rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);border:1px solid var(--line-soft);border-radius:6px;padding:5px 8px}
     .plus{width:34px;height:34px;border:1px solid var(--line-soft);border-radius:8px;display:grid;place-items:center;color:var(--accent);font-size:1.1rem;line-height:1;transition:transform .3s var(--ease),border-color .2s var(--ease),background .2s var(--ease)}
@@ -164,7 +166,7 @@
     /* Inline project SVGs share one transparent frame and CSS-controlled stroke. */
     .work .row-body{grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:24px}
     .work .row-text{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
-    .row-visual{align-self:stretch;margin:20px 0 0;min-width:0}
+    .row-visual{align-self:start;margin:20px 0 0;min-width:0}
     .project-image{--project-icon-color:var(--accent);display:grid;place-items:center;width:100%;height:100%;padding:0 16px;background:none}
     .project-icon{display:block;width:128px;max-width:100%;height:auto;aspect-ratio:144/120;color:var(--project-icon-color)}
     .row-body strong{display:block;color:var(--accent-2);font-size:.63rem;letter-spacing:.13em;text-transform:uppercase;margin-bottom:10px}
@@ -323,11 +325,11 @@
     <div class="wrap hero-grid">
       <div class="hero-content">
         <h1>Digital Project<br>Manager</h1>
-        <p class="hero-desc">Digital Production &nbsp;·&nbsp; Cross-functional Delivery &nbsp;·&nbsp; AI-Enabled Workflows</p>
+        <p class="hero-desc">Business &nbsp;·&nbsp; Design &nbsp;·&nbsp; Technology</p>
         <p class="hero-lead">I lead digital projects from <strong>business need to delivery</strong> — coordinating people, scope, budgets, quality and timelines across creative, technical and business environments.</p>
-        <p class="hero-sub">20+ years in digital production, 3D/CGI, XR and design give me the technical depth to make realistic project decisions. AI and automation are tools I use when they add value.</p>
+        <p class="hero-sub">20+ years across business, design and technology give me the breadth to connect commercial priorities, customer experience and production realities — and the hands-on depth to turn them into realistic scope, budgets and delivery decisions.</p>
         <div class="hero-proof" aria-label="Selected professional evidence">
-          <div class="hp"><span class="hp-n">20+</span><span class="hp-l">Years across digital production, design &amp; technology</span></div>
+          <div class="hp"><span class="hp-n">20+</span><span class="hp-l">Years across business, design &amp; technology</span></div>
           <div class="hp"><span class="hp-n">25%</span><span class="hp-l">Operational-cost reduction contribution</span></div>
           <div class="hp"><span class="hp-n">40%</span><span class="hp-l">Faster time-to-market contribution</span></div>
           <div class="hp"><span class="hp-n">End-to-end</span><span class="hp-l">Scope, budgets, quality &amp; delivery ownership</span></div>
@@ -343,39 +345,23 @@
     </div>
   </section>
 
-  <!-- ============ EXPERTISE STRIP ============ -->
-  <section class="expertise" id="expertise">
-    <div class="wrap split" data-reveal>
-      <div class="lede">
-        <p class="section-label">What I do</p>
-        <h2>From strategy<br><span class="accent">to execution.</span></h2>
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="expertise" id="expertise" aria-labelledby="capabilities-title">
+    <div class="wrap" data-reveal>
+      <div class="lede capabilities-intro">
+        <p class="section-label">Capabilities</p>
+        <h2 id="capabilities-title">Business, design<br><span class="accent">and technology.</span></h2>
+        <p>I can speak business, design and technology — and turn all three into executable projects.</p>
+        <p>My breadth strengthens my work as a Digital Project Manager: I translate between stakeholders, designers and technical teams, connecting business value to what it takes to deliver.</p>
       </div>
       <div class="grid">
-        <div class="exp-item">
-          <div class="mk"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4h14M3 10h14M3 16h9"/></svg></div>
-          <h3>Project Management</h3>
-          <p>Aligning people, priorities and progress.</p>
-        </div>
-        <div class="exp-item">
-          <div class="mk"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="14" height="14" rx="2"/><path d="M3 8h14M8 8v9"/></svg></div>
-          <h3>Digital Production</h3>
-          <p>Delivering work with structure, quality and flow.</p>
-        </div>
-        <div class="exp-item">
-          <div class="mk"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10 2v4M10 14v4M2 10h4M14 10h4"/><circle cx="10" cy="10" r="3.4"/></svg></div>
-          <h3>AI &amp; Workflow Improvement</h3>
-          <p>Using AI to work smarter when it adds value.</p>
-        </div>
-        <div class="exp-item">
-          <div class="mk"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="3"/><circle cx="14" cy="13" r="3"/><path d="M9.2 9.2 12 11"/></svg></div>
-          <h3>Client &amp; Team Coordination</h3>
-          <p>Connecting stakeholders, delivery and outcomes.</p>
-        </div>
+        <div class="exp-item"><h3>Strategy &amp; Delivery</h3><p>Digital Project Management · Product Management · Scoping · Estimation · Budgets · Stakeholder Management · Process Transformation · Business Cases</p></div>
+        <div class="exp-item"><h3>Product &amp; Experience</h3><p>UX/UI · Product Design · CRO · Customer Experience · Prototyping · Design Thinking</p></div>
+        <div class="exp-item"><h3>Creative Technology</h3><p>3D/CGI · Motion Graphics · AR/VR/XR · GenAI · Automation · Creative Workflows · Emerging Technology</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ BRANDS ============ -->
   <section class="brands" aria-labelledby="brands-title">
     <div class="wrap" data-reveal>
       <div class="brands-head">
@@ -412,7 +398,7 @@
           <summary>
             <div class="row-head">
               <span class="num">01</span>
-              <div class="row-title"><h3>Intelligent Content QA System</h3><p>From a fragmented QA problem to a functional, reusable validation system.</p></div>
+              <div class="row-title"><h3>Intelligent Content QA System</h3><p>Fragmented manual QA → a reusable end-to-end validation system.</p></div>
               <div class="tags"><span class="tag">Project lead</span><span class="tag">Product</span><span class="tag">Automation</span></div>
               <span class="plus" aria-hidden="true">+</span>
             </div>
@@ -432,8 +418,14 @@
               </div>
             </div>
             <div class="row-text">
-              <div class="col"><strong>What I owned</strong><p>Discovery, strategy, workshops, requirements, planning, cross-functional coordination and AI-assisted product development.</p></div>
-              <div class="col"><strong>Evidence / outcome</strong><ul><li>Functional, reusable system covering master, pre-live and post-live QA</li><li>Checks for titles, metadata, headings, CTAs, links, keywords and brand rules</li><li>~6 months coordinating contributors across different projects and capabilities</li></ul></div>
+              <div class="col"><strong>The challenge</strong><p>Digital content QA relied on fragmented manual reviews, repeated checks and different criteria across teams and production stages.</p></div>
+              <div class="col"><strong>What I did</strong><p>I identified the opportunity, defined the product logic and validation requirements, and coordinated contributors across different projects and capabilities to build a functional system.</p></div>
+              <div class="col"><strong>How it works</strong><p>Reusable validation logic connects Master, Pre-live and Post-live checks across titles, metadata, headings, CTAs, links, keywords and brand rules, turning separate reviews into an end-to-end content QA workflow.</p></div>
+              <div class="col"><strong>Tools &amp; approach</strong><p>FastAPI · Python · Playwright · AEM validation · rule-based checks · semantic validation · AI-assisted development. The approach combines explicit content rules with checks that consider meaning and context.</p></div>
+              <div class="col"><strong>Why it matters</strong><p>A shared validation framework makes quality criteria repeatable and gives teams a consistent basis for reviewing content and resolving issues.</p></div>
+              <div class="col"><strong>What makes it different</strong><p>It connects checks across the content lifecycle rather than inspecting a page in isolation. The system is designed for reuse across brands, markets and production environments.</p></div>
+              <div class="col"><strong>My role</strong><p>Product definition · Project Management · Requirements · Workflow design · Stakeholder coordination · QA strategy · AI-assisted development.</p></div>
+              <div class="col"><strong>Outcome or next step</strong><p>Functional, reusable validation across all three stages, developed through approximately six months of contributor coordination. Next step: validate broader reuse against additional brand and market requirements.</p></div>
             </div>
           </div>
         </details>
@@ -442,7 +434,7 @@
           <summary>
             <div class="row-head">
               <span class="num">02</span>
-              <div class="row-title"><h3>Marketing Operations Estimator</h3><p>From inconsistent estimation logic to a reusable estimation and planning product.</p></div>
+              <div class="row-title"><h3>Marketing Operations Estimator</h3><p>Production complexity → structured planning and commercial decisions.</p></div>
               <div class="tags"><span class="tag">Estimation</span><span class="tag">Planning</span><span class="tag">Product</span></div>
               <span class="plus" aria-hidden="true">+</span>
             </div>
@@ -461,8 +453,14 @@
               </div>
             </div>
             <div class="row-text">
-              <div class="col"><strong>What I owned</strong><p>Concept, requirements, complexity drivers, assumptions, dependencies, iteration and continued product development.</p></div>
-              <div class="col"><strong>Evidence / outcome</strong><ul><li>Reusable estimation logic across Marketing Operations capabilities</li><li>Explicit assumptions, dependencies and complexity drivers</li><li>Working framework that keeps evolving with operational needs</li></ul></div>
+              <div class="col"><strong>The challenge</strong><p>Estimation depended on inconsistent logic, with production complexity, assumptions and dependencies difficult to compare across Marketing Operations capabilities.</p></div>
+              <div class="col"><strong>What I did</strong><p>I defined the concept and requirements, structured complexity drivers and estimation logic, and led iteration around operational needs.</p></div>
+              <div class="col"><strong>How it works</strong><p>The system brings capabilities, production complexity, assumptions and dependencies into a reusable planning framework, making the basis of an estimate explicit before commercial decisions are made.</p></div>
+              <div class="col"><strong>Tools &amp; approach</strong><p>Product thinking · Requirements definition · Capability mapping · Complexity modelling · Assumption and dependency mapping · Iterative validation with operational needs.</p></div>
+              <div class="col"><strong>Why it matters</strong><p>It connects production realities to scope, effort and budget discussions, helping teams make more structured commercial decisions and explain the reasoning behind an estimate.</p></div>
+              <div class="col"><strong>What makes it different</strong><p>A reusable planning and estimation product, rather than a one-off calculation: assumptions and dependencies remain part of the decision, alongside the numbers.</p></div>
+              <div class="col"><strong>My role</strong><p>Product concept · Requirements · Estimation framework · Operations design · Business translation · Continued product development.</p></div>
+              <div class="col"><strong>Outcome or next step</strong><p>A working framework with reusable estimation logic across Marketing Operations capabilities. It continues to evolve as operational needs and planning scenarios change.</p></div>
             </div>
           </div>
         </details>
@@ -471,8 +469,8 @@
           <summary>
             <div class="row-head">
               <span class="num">03</span>
-              <div class="row-title"><h3>Process Transformation &amp; Facilitation</h3><p>Designing collaborative sessions that turn complex processes, stakeholder needs and operational friction into clear priorities and actionable next steps.</p></div>
-              <div class="tags"><span class="tag">Facilitation</span><span class="tag">Stakeholders</span><span class="tag">Transformation</span></div>
+              <div class="row-title"><h3>Design Thinking &amp; Business Process Transformation</h3><p>Stakeholder needs and operational friction → viable business opportunities.</p></div>
+              <div class="tags"><span class="tag">Design Thinking</span><span class="tag">Stakeholders</span><span class="tag">Transformation</span></div>
               <span class="plus" aria-hidden="true">+</span>
             </div>
           </summary>
@@ -490,8 +488,14 @@
               </div>
             </div>
             <div class="row-text">
-              <div class="col"><strong>What I owned</strong><p>Workshop strategy, session design and facilitation, process mapping, stakeholder alignment, synthesis, prioritisation and executive documentation.</p></div>
-              <div class="col"><strong>Evidence / outcome</strong><ul><li>Complex processes translated into clear shared understanding</li><li>Stakeholder perspectives aligned around priorities and dependencies</li><li>Actionable recommendations and decision-ready outputs</li></ul></div>
+              <div class="col"><strong>The challenge</strong><p>A complex business process involved different stakeholder needs, operational friction and competing priorities. The first task was to understand the real problem before proposing a solution.</p></div>
+              <div class="col"><strong>What I did</strong><p>I used Design Thinking to empathise with the client and stakeholders, led structured discovery, mapped the AS-IS process and translated pain points into opportunity areas.</p></div>
+              <div class="col"><strong>How it works</strong><p>Insights inform prioritisation. Potential solutions are evaluated against user needs, business impact, operational efficiency, feasibility, scalability, implementation effort and potential return.</p></div>
+              <div class="col"><strong>Tools &amp; approach</strong><p>Design Thinking · Stakeholder discovery · AS-IS mapping · Pain-point synthesis · Opportunity framing · Prioritisation · Business evaluation. Facilitation and collaborative sessions support the discovery process.</p></div>
+              <div class="col"><strong>Why it matters</strong><p>It helps the client choose solutions that address real needs while making sense for the business, its operations and its profitability.</p></div>
+              <div class="col"><strong>What makes it different</strong><p>I use Design Thinking not simply to generate ideas, but to identify the right problems and turn them into viable business opportunities.</p></div>
+              <div class="col"><strong>My role</strong><p>Discovery · Process mapping · Stakeholder alignment · Synthesis · Solution evaluation · Prioritisation · Executive documentation.</p></div>
+              <div class="col"><strong>Outcome or next step</strong><p>Clearer shared understanding of the process, aligned priorities and decision-ready recommendations. Next step: validate the preferred opportunities and their implementation assumptions with the client.</p></div>
             </div>
           </div>
         </details>
@@ -500,8 +504,8 @@
           <summary>
             <div class="row-head">
               <span class="num">04</span>
-              <div class="row-title"><h3>Automotive CGI Production &amp; Team Leadership</h3><p>Production leadership inside a five-person CGI lighting function.</p></div>
-              <div class="tags"><span class="tag">Leadership</span><span class="tag">CGI</span><span class="tag">Quality</span></div>
+              <div class="row-title"><h3>CGI + GenAI Hybrid Production System</h3><p>3D control + AI exploration → consistent backplates and environments.</p></div>
+              <div class="tags"><span class="tag">CGI</span><span class="tag">GenAI</span><span class="tag">Production</span></div>
               <span class="plus" aria-hidden="true">+</span>
             </div>
           </summary>
@@ -518,8 +522,14 @@
               </div>
             </div>
             <div class="row-text">
-              <div class="col"><strong>What I owned</strong><p>Led the interior-lighting function for a five-person CGI team for a global premium automotive brand — supporting onboarding, reviewing quality and keeping delivery consistent.</p></div>
-              <div class="col"><strong>Evidence / outcome</strong><ul><li>Team leadership and onboarding support for a five-person function</li><li>Quality review and consistency across production</li><li>Hands-on technical depth informing delivery decisions</li></ul></div>
+              <div class="col"><strong>The challenge</strong><p>Creating consistent backplates and environments requires repeatable composition and perspective while leaving room for exploration and client iteration.</p></div>
+              <div class="col"><strong>What I did</strong><p>I designed a hybrid 3D + GenAI production workflow that uses scene structure to guide image exploration, connecting hands-on CGI knowledge with the needs of client review and production.</p></div>
+              <div class="col"><strong>How it works</strong><p>3D blocking establishes geometry and composition. Camera control and orthographic views provide structured references for GenAI exploration; outputs are reviewed for consistency and refined through client iteration.</p></div>
+              <div class="col"><strong>Tools &amp; approach</strong><p>Blender · 3ds Max · ComfyUI · 3D blocking · Camera control · Geometry · Orthographic views · GenAI. Each tool supports a stage of the workflow, from spatial control to visual exploration.</p></div>
+              <div class="col"><strong>Why it matters</strong><p>A reusable production system aims to make exploration faster while retaining the consistency needed to review environments and backplates with clients.</p></div>
+              <div class="col"><strong>What makes it different</strong><p>Pure image generation offers speed but less control; traditional CGI offers control but requires more production effort. The hybrid model aims to retain control while accelerating exploration.</p></div>
+              <div class="col"><strong>My role</strong><p>Workflow design · Creative and technical direction · Prototyping · Quality review. My production background also includes leading a five-person CGI interior-lighting function for a global premium automotive brand, including onboarding and delivery consistency.</p></div>
+              <div class="col"><strong>Outcome or next step</strong><p>A hybrid workflow for developing consistent environments and backplates. Next step: validate repeatability across camera views and client revisions, and assess production effort against the traditional CGI baseline.</p></div>
             </div>
           </div>
         </details>
@@ -528,7 +538,7 @@
           <summary>
             <div class="row-head">
               <span class="num">05</span>
-              <div class="row-title"><h3>GenAI Enablement &amp; Workflow Adoption</h3><p>Applying GenAI to real production needs rather than treating AI as a job title.</p></div>
+              <div class="row-title"><h3>GenAI Enablement &amp; Workflow Adoption</h3><p>Use cases, workflow design and team enablement → adoption in real processes.</p></div>
               <div class="tags"><span class="tag">GenAI</span><span class="tag">Enablement</span><span class="tag">Workflow</span></div>
               <span class="plus" aria-hidden="true">+</span>
             </div>
@@ -547,8 +557,14 @@
               </div>
             </div>
             <div class="row-text">
-              <div class="col"><strong>What I owned</strong><p>Use-case exploration, workflow experimentation, training design and translation of operational needs into practical prototypes and tools.</p></div>
-              <div class="col"><strong>Evidence / outcome</strong><ul><li>Internal ComfyUI / GenAI enablement and knowledge transfer</li><li>Applied AI experimentation inside digital-production workflows</li><li>GenAI Hub participation across ideation, use cases, training and innovation</li></ul></div>
+              <div class="col"><strong>The challenge</strong><p>Teams needed a practical route from AI experimentation to useful, repeatable workflows within day-to-day digital production.</p></div>
+              <div class="col"><strong>What I did</strong><p>I identified use cases, designed workflows and training, and translated operational needs into practical prototypes and tools that help teams adopt GenAI in real processes.</p></div>
+              <div class="col"><strong>How it works</strong><p>Use cases start with a production need. Prototypes make the workflow tangible; training and knowledge transfer help teams apply it, while feedback informs further iteration.</p></div>
+              <div class="col"><strong>Tools &amp; approach</strong><p>ComfyUI · GenAI tools · Workflow prototyping · Use-case evaluation · Training design · Knowledge transfer · Operational feedback.</p></div>
+              <div class="col"><strong>Why it matters</strong><p>The value lies in teams being able to use AI within their work, with a clear purpose and an approach they can understand and repeat.</p></div>
+              <div class="col"><strong>What makes it different</strong><p>Enablement connects use-case selection, workflow design and team learning to adoption in real production processes, extending beyond isolated experiments or tool demonstrations.</p></div>
+              <div class="col"><strong>My role</strong><p>Use-case definition · Workflow design · Prototyping · Team enablement · Training · Translation of business and operational needs.</p></div>
+              <div class="col"><strong>Outcome or next step</strong><p>Internal ComfyUI / GenAI training and knowledge transfer, applied production workflows, and GenAI Hub participation across use cases, training and innovation. Next step: refine the most useful workflows through team feedback.</p></div>
             </div>
           </div>
         </details>
@@ -581,7 +597,7 @@
             <ul>
               <li>Lead and coordinate multidisciplinary technical, creative and business teams.</li>
               <li>Translate operational needs into projects, digital products and internal tools across content QA, estimation and AI-enabled workflows.</li>
-              <li>Facilitate stakeholder workshops, align priorities and support delivery, quality and follow-up.</li>
+              <li>Use Design Thinking to understand stakeholder needs, define opportunities and align priorities with business value, delivery and quality.</li>
             </ul>
           </div></div>
         </details>
@@ -612,11 +628,11 @@
             </div>
           </summary>
           <div class="row-body"><div class="col">
-            <p>Created and directed the studio with end-to-end responsibility for client work and delivery.</p>
+            <p>Founded and directed BlackSheepStudio, owning the full journey from client discovery to final delivery. I connected business needs, creative decisions and production constraints, with responsibility for scope, budgets, quality and timelines.</p>
             <ul>
-              <li>Direct client relationships, requirements and project / product definition.</li>
-              <li>Scope, cost estimates, project budgets, planning and production.</li>
-              <li>External collaborators, quality, timelines and final delivery across multiple industries.</li>
+              <li>Led client discovery, translated business needs into requirements, and defined projects and products with a clear scope.</li>
+              <li>Built estimates and project budgets, structured delivery plans, and coordinated production against agreed scope and timelines.</li>
+              <li>Coordinated external collaborators, reviewed quality and managed final delivery across multiple industries, keeping client expectations connected to production realities.</li>
             </ul>
           </div></div>
         </details>
@@ -668,7 +684,8 @@
       </div>
 
       <div class="toolbox">
-        <div><strong>Tools</strong><p>Claude Code &middot; Microsoft 365 + Copilot &middot; Unreal Engine &middot; Unity &middot; Figma &middot; Adobe Creative Suite &middot; Perforce &middot; Ftrack &middot; Monday &middot; Confluence &middot; Notion &middot; ComfyUI &middot; Stable Diffusion &middot; Flux &middot; Python (basic, in progress)</p></div>
+        <div><strong>Project &amp; Production Management</strong><p>Ftrack &middot; GitHub &middot; Monday.com &middot; Jira</p></div>
+        <div><strong>Technical &amp; Creative Stack</strong><p>Blender &middot; 3ds Max &middot; ComfyUI &middot; Python (basic, in progress) &middot; Playwright &middot; GenAI tools &middot; CGI/XR workflows &middot; Figma &middot; Adobe Creative Suite &middot; Unreal Engine &middot; Unity</p></div>
         <div><strong>Languages</strong><p>Spanish &mdash; native &middot; English &mdash; B2, daily use in international environments</p></div>
       </div>
     </div>
