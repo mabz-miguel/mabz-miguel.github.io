@@ -19,7 +19,8 @@
   .summary{color:var(--soft)}
   ul{margin:4px 0 8px;padding-left:16px}
   li{margin:3px 0;color:var(--soft)}
-  .comp{display:grid;grid-template-columns:1fr 1fr;gap:2px 28px}
+  .comp{display:grid;grid-template-columns:1fr;gap:3px}
+  .project-tools{font-size:9pt;color:var(--muted)}
   .comp div{font-size:9.5pt;padding:3px 0;color:var(--soft)}
   .comp b{color:var(--ink);font-weight:700}
   .job{margin-bottom:12px}
@@ -39,10 +40,19 @@
   .kv b{color:var(--ink)}
   @page{size:A4;margin:14mm}
   @media print{
-    html,body{background:#fff;font-size:10pt}
+    html,body{background:#fff;font-size:10pt;line-height:1.28}
     .page{max-width:none;margin:0;padding:0;border-top:4px solid var(--accent);box-shadow:none}
-    h2{margin-top:15px}
-    .job,.proj{page-break-inside:avoid}
+    h2{margin:12px 0 7px}
+    p{margin-bottom:6px}
+    ul{margin:3px 0 6px}
+    li{margin:2px 0}
+    .job{margin-bottom:8px}
+    .comp{gap:1px}
+    .comp div{padding:2px 0}
+    .job,.proj,.comp,.edu,.kv{break-inside:avoid}
+    h2{break-after:avoid}
+    .projects-heading{break-before:page;padding-top:8px}
+    p,li{orphans:2;widows:2}
   }
 </style>
 </head>
@@ -52,22 +62,18 @@
   <header>
     <h1>Miguel Ángel Ballesteros Zafra</h1>
     <p class="role">Digital Project Manager</p>
-    <p class="tagline">Digital Production · Cross-functional Delivery · AI-Enabled Workflows</p>
+    <p class="tagline">Business · Design · Technology</p>
     <p class="contact">Madrid, Spain · <a href="mailto:mabz.miguel@gmail.com">mabz.miguel@gmail.com</a> · <a href="https://www.linkedin.com/in/miguelballesteroszafra">linkedin.com/in/miguelballesteroszafra</a> · <a href="https://mabz-miguel.github.io">mabz-miguel.github.io</a></p>
   </header>
 
   <h2>Professional Summary</h2>
-  <p class="summary">Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, design and emerging technology. Combines hands-on production fluency with end-to-end delivery: translating business needs into requirements and practical solutions, coordinating creative, technical and business profiles, and managing scope, quality, timelines, estimates, budgets and stakeholder alignment. Currently at Accenture Marketing Operations, working across content QA, estimation, GenAI enablement and workflow automation.</p>
+  <p class="summary">Digital Project Manager with 20+ years across business, design and technology. Turns complex needs into viable projects by understanding the problem, shaping the solution and leading multidisciplinary delivery. Combines product thinking, UX/UI and creative technology with practical judgement on scope, estimates, budgets and quality. Experience spans studio ownership, digital products, process transformation and GenAI adoption. Connects client priorities with what teams can build, from discovery to final delivery.</p>
 
-  <h2>Core Competencies</h2>
+  <h2>Capabilities</h2>
   <div class="comp">
-    <div><b>Project Delivery Methods</b> — Agile/Scrum foundations (Google PM), requirements, dependencies, QA and delivery follow-up.</div>
-    <div><b>Stakeholder Management</b> — Discovery, alignment, workshops, client and business communication.</div>
-    <div><b>Scoping, Estimation &amp; Budgets</b> — Project scope, cost estimates and project budgets from direct studio ownership.</div>
-    <div><b>Cross-functional Coordination</b> — Creative, technical, production and business profiles.</div>
-    <div><b>Digital Production</b> — 3D/CGI, XR/AR, realtime, UX/UI, content workflows.</div>
-    <div><b>Workflow &amp; Process Design</b> — QA systems, estimation frameworks, handoffs and standardisation.</div>
-    <div><b>AI-Enabled Delivery</b> — GenAI adoption, automation, lightweight prototyping and enablement.</div>
+    <div><b>Strategy &amp; Delivery</b> — Digital Project Management · Product Management · Scoping · Estimation · Budgets · Stakeholder Management · Process Transformation · Business Cases.</div>
+    <div><b>Product &amp; Experience</b> — UX/UI · Product Design · CRO · Customer Experience · Prototyping · Design Thinking.</div>
+    <div><b>Creative Technology</b> — 3D/CGI · Motion Graphics · AR/VR/XR · GenAI · Automation · Creative Workflows · Emerging Technology.</div>
   </div>
 
   <h2>Professional Experience</h2>
@@ -76,11 +82,11 @@
     <div class="job-head"><span class="job-title">Assistant Manager · GenAI Adoption &amp; Digital Innovation</span><span class="job-dates">2022 – Present</span></div>
     <div class="job-org">Accenture Marketing Operations — Madrid, Spain</div>
     <ul>
-      <li>Coordinate multidisciplinary technical, creative and business profiles across digital-production and innovation initiatives; led a five-person automotive CGI interior-lighting function with onboarding support, quality review and delivery consistency.</li>
-      <li>Translate operational needs into practical solutions, working systems and internal tools, including an Intelligent Content QA System and a reusable project-estimation framework.</li>
-      <li>Design and facilitate stakeholder workshops to diagnose issues, align priorities and turn findings into actionable next steps.</li>
-      <li>R&amp;D and automation initiatives contributed to a 25% reduction in operational costs, 40% faster time-to-market and productivity increases of up to 40%.</li>
-      <li>Support GenAI adoption through the GenAI Hub and internal enablement, including practical production workflows and ComfyUI training.</li>
+      <li>Identify opportunities, define requirements and coordinate business, creative and technical contributors across content QA, estimation and workflow automation.</li>
+      <li>Apply Design Thinking to understand stakeholders, map AS-IS processes and prioritise solutions against user needs, feasibility, implementation effort and potential business return.</li>
+      <li>Design GenAI use cases and production workflows; train teams through internal enablement, ComfyUI sessions and GenAI Hub knowledge transfer.</li>
+      <li>Led a five-person automotive CGI interior-lighting function, coordinating onboarding, quality review and consistent delivery.</li>
+      <li>R&amp;D and automation initiatives contributed to 25% lower operational costs, 40% faster time-to-market and productivity increases of up to 40%.</li>
     </ul>
   </div>
 
@@ -88,7 +94,7 @@
     <div class="job-head"><span class="job-title">UX/UI Designer · XR Expert · Digital Experience</span><span class="job-dates">2020 – 2022</span></div>
     <div class="job-org">Accenture Song / Fjord / Interactive — Madrid, Spain</div>
     <ul>
-      <li>Delivered immersive and digital-experience projects for international clients, including realtime showrooms, XR/AR, UX/UI and product communication, collaborating across design, technology and production.</li>
+      <li>Designed and delivered UX/UI and immersive experiences for international clients, including realtime showrooms, XR/AR and product communication. Connected design decisions with technical possibilities and production requirements across disciplines.</li>
     </ul>
   </div>
 
@@ -96,9 +102,9 @@
     <div class="job-head"><span class="job-title">Founder · Digital Studio Director</span><span class="job-dates">2014 – 2020</span></div>
     <div class="job-org">BlackSheepStudio — Spain</div>
     <ul>
-      <li>Created and directed the studio, leading digital, interactive and visual projects end to end from client need and requirements through final delivery.</li>
-      <li>Managed client relationships, project / product definition, scope, cost estimates, project budgets, planning, production, quality, timelines and final delivery across multiple industries.</li>
-      <li>Coordinated external collaborators when required and balanced client expectations, costs, scope and production requirements throughout delivery.</li>
+      <li>Founded and directed the studio, owning client discovery, requirements and project / product definition through final delivery.</li>
+      <li>Defined scope, built estimates and project budgets, and planned production, balancing client value, quality and timelines across multiple industries.</li>
+      <li>Coordinated external collaborators, reviewed quality and managed delivery, keeping client expectations aligned with scope, costs and production realities.</li>
     </ul>
   </div>
 
@@ -106,14 +112,16 @@
     <div class="job-head"><span class="job-title">Art Director · Graphic Designer · 3D Specialist</span><span class="job-dates">2003 – 2014</span></div>
     <div class="job-org">Agencies &amp; Creative Studios — Spain</div>
     <ul>
-      <li>Built the hands-on foundation behind current project work across design, branding, advertising, UX/UI, 3D/CGI and digital production.</li>
+      <li>Built hands-on depth across art direction, design, branding, advertising, UX/UI and 3D/CGI — the practical foundation for assessing scope, discussing technical trade-offs and setting realistic delivery expectations.</li>
     </ul>
   </div>
 
-  <h2>Selected Projects</h2>
-  <p class="proj"><b>Intelligent Content QA System:</b> Functional, reusable system for AI-assisted web-content validation, comparing master vs. pre-production outputs and structuring reusable QA criteria.</p>
-  <p class="proj"><b>Marketing Operations Estimator:</b> Reusable estimation framework using complexity drivers, assumptions, dependencies and benchmark logic to improve planning consistency.</p>
-  <p class="proj"><b>Automotive CGI Production &amp; Team Leadership:</b> Led the interior-lighting function for a five-person CGI team, supporting onboarding, reviewing quality and maintaining delivery consistency for a global premium automotive brand.</p>
+  <h2 class="projects-heading">Selected Projects &amp; Business Value</h2>
+  <p class="proj"><b>Intelligent Content QA System</b><br>Identified the opportunity, defined product logic and requirements, and coordinated contributors to turn fragmented manual reviews into a functional, reusable end-to-end system. Covers Master, Pre-live and Post-live checks for titles, metadata, headings, CTAs, links, keywords and brand rules.<br><span class="project-tools">FastAPI · Python · Playwright · AEM validation · Rule-based checks · Semantic validation · AI-assisted development.</span></p>
+  <p class="proj"><b>Marketing Operations Estimator</b><br>Defined the concept and structured a reusable planning and estimation framework. Connects capabilities, production complexity, assumptions and dependencies to more consistent scope, effort and budget discussions. Applies product thinking to operations, turning production knowledge into structured commercial decisions.</p>
+  <p class="proj"><b>Design Thinking &amp; Business Process Transformation</b><br>Led discovery, empathised with clients and stakeholders, mapped AS-IS processes and translated pain points into prioritised opportunities. Evaluated solutions against user needs, business impact, operational efficiency, feasibility, scalability, implementation effort and potential return — identifying the right problems before investing in solutions.</p>
+  <p class="proj"><b>CGI + GenAI Hybrid Production System</b><br>Designed a hybrid workflow for consistent backplates and environments. Uses 3D blocking, camera control, geometry and orthographic views to guide GenAI exploration and client iteration. Aims to retain CGI control while accelerating exploration, balancing the limited control of pure image generation with the production effort of traditional CGI.<br><span class="project-tools">Blender · 3ds Max · ComfyUI · 3D / GenAI workflow design.</span></p>
+  <p class="proj"><b>GenAI Enablement &amp; Workflow Adoption</b><br>Identified use cases, designed workflows and training, and translated operational needs into prototypes and tools. Internal ComfyUI / GenAI enablement and knowledge transfer help teams apply AI in real production processes, extending beyond isolated experiments.</p>
 
   <h2>Education &amp; Certifications</h2>
   <div class="edu">
@@ -131,8 +139,9 @@
   </div>
 
   <h2>Tools &amp; Languages</h2>
-  <p class="kv"><b>Project / collaboration:</b> Monday · Ftrack · Confluence · Notion · Microsoft 365 + Copilot · Perforce.</p>
-  <p class="kv"><b>Digital / technical:</b> Unreal Engine · Unity · Figma · Adobe Creative Suite · ComfyUI · Claude Code · Stable Diffusion · Flux · Python (basic, in progress).</p>
+  <p class="kv"><b>Project &amp; Production Management:</b> Ftrack · GitHub · Monday.com · Jira.</p>
+  <p class="kv"><b>Technical &amp; Creative Stack:</b> Blender · 3ds Max · ComfyUI · Python (basic, in progress) · Playwright · GenAI tools · CGI/XR workflows · Figma · Adobe Creative Suite · Unreal Engine · Unity.</p>
+  <p class="kv"><b>Collaboration &amp; Support:</b> Confluence · Notion · Microsoft 365 + Copilot · Perforce · Claude Code.</p>
   <p class="kv"><b>Languages:</b> Spanish (native) · English B2 (daily professional use in international environments).</p>
 
 </div>

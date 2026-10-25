@@ -1,86 +1,129 @@
 # CV Source — Digital Project Manager
 
-**Status:** implementation source for the recruiter-facing CV. The generated DOCX/PDF must remain aligned to this positioning.
+**Status:** Aligned with `assets/cv.html` and the downloadable PDF; updated business, design and technology positioning.
 
 ## Header
 
-**MIGUEL ÁNGEL BALLESTEROS ZAFRA**  
-**DIGITAL PROJECT MANAGER**  
-Digital Production | Cross-functional Delivery | AI-Enabled Workflows
+Miguel Ángel Ballesteros Zafra
 
-Madrid, Spain | contact details | LinkedIn | Portfolio
+Digital Project Manager
+
+Business · Design · Technology
+
+Madrid, Spain · mabz.miguel@gmail.com · linkedin.com/in/miguelballesteroszafra · mabz-miguel.github.io
 
 ## Professional Summary
 
-Digital Project Manager with 20+ years across digital production, 3D/CGI, XR, design and emerging technology. Combines hands-on production fluency with end-to-end delivery: translating business needs into requirements and practical solutions, coordinating creative, technical and business profiles, and managing scope, quality, timelines, estimates, budgets and stakeholder alignment. Currently at Accenture Marketing Operations, working across content QA, estimation, GenAI enablement and workflow automation.
+Digital Project Manager with 20+ years across business, design and technology. Turns complex needs into viable projects by understanding the problem, shaping the solution and leading multidisciplinary delivery. Combines product thinking, UX/UI and creative technology with practical judgement on scope, estimates, budgets and quality. Experience spans studio ownership, digital products, process transformation and GenAI adoption. Connects client priorities with what teams can build, from discovery to final delivery.
 
-## Core Competencies
+## Capabilities
 
-- **Project Delivery Methods** — Agile/Scrum foundations (Google PM), requirements, dependencies, QA and delivery follow-up.
-- **Stakeholder Management** — Discovery, alignment, workshops, client / business communication.
-- **Scoping, Estimation & Budgets** — Project scope, cost estimates and project budgets from direct studio ownership.
-- **Cross-functional Coordination** — Creative, technical, production and business profiles.
-- **Digital Production** — 3D/CGI, XR/AR, realtime, UX/UI, content workflows.
-- **Workflow & Process Design** — QA systems, estimation frameworks, handoffs and standardization.
-- **AI-Enabled Delivery** — GenAI adoption, automation, lightweight prototyping and enablement.
+Strategy & Delivery — Digital Project Management · Product Management · Scoping · Estimation · Budgets · Stakeholder Management · Process Transformation · Business Cases.
+
+Product & Experience — UX/UI · Product Design · CRO · Customer Experience · Prototyping · Design Thinking.
+
+Creative Technology — 3D/CGI · Motion Graphics · AR/VR/XR · GenAI · Automation · Creative Workflows · Emerging Technology.
 
 ## Professional Experience
 
-### Assistant Manager | GenAI Adoption & Digital Innovation — Accenture Marketing Operations
-**Madrid, Spain | 2022 – Present**
+Assistant Manager · GenAI Adoption & Digital Innovation 2022 – Present
 
-- Coordinate multidisciplinary technical, creative and business profiles across digital-production and innovation initiatives; led a five-person automotive CGI interior-lighting function with onboarding support, quality review and delivery consistency.
-- Translate operational needs into practical solutions, working systems and internal tools, including an Intelligent Content QA System and reusable project-estimation framework.
-- Design and facilitate stakeholder workshops to diagnose issues, align priorities and turn findings into actionable next steps.
-- R&D and automation initiatives contributed to a 25% reduction in operational costs, 40% faster time-to-market and productivity increases of up to 40%.
-- Support GenAI adoption through the GenAI Hub and internal enablement, including practical production workflows and ComfyUI training.
+Accenture Marketing Operations — Madrid, Spain
 
-### UX/UI Designer | XR Expert | Digital Experience — Accenture Song / Fjord / Interactive
-**Madrid, Spain | 2020 – 2022**
+- Identify opportunities, define requirements and coordinate business, creative and technical contributors across content QA, estimation and workflow automation.
 
-- Delivered immersive and digital-experience projects for international clients, including realtime showrooms, XR/AR, UX/UI and product communication, collaborating across design, technology and production.
+- Apply Design Thinking to understand stakeholders, map AS-IS processes and prioritise solutions against user needs, feasibility, implementation effort and potential business return.
 
-### Founder | Digital Studio Director — BlackSheepStudio
-**Spain | 2014 – 2020**
+- Design GenAI use cases and production workflows; train teams through internal enablement, ComfyUI sessions and GenAI Hub knowledge transfer.
 
-- Created and directed the studio, leading digital, interactive and visual projects end to end from client need and requirements through final delivery.
-- Managed client relationships, project / product definition, scope, estimates, project budgets, planning, production, quality, timelines and final delivery across multiple industries.
-- Coordinated external collaborators when required and balanced client expectations, costs, scope and production requirements throughout delivery.
+- Led a five-person automotive CGI interior-lighting function, coordinating onboarding, quality review and consistent delivery.
 
-### Art Director | Graphic Designer | 3D Specialist — Agencies & Creative Studios
-**Spain | 2003 – 2014**
+- R&D and automation initiatives contributed to 25% lower operational costs, 40% faster time-to-market and productivity increases of up to 40%.
 
-- Built the hands-on foundation behind current project work across design, branding, advertising, UX/UI, 3D/CGI and digital production.
+UX/UI Designer · XR Expert · Digital Experience 2020 – 2022
 
-## Selected Projects
+Accenture Song / Fjord / Interactive — Madrid, Spain
 
-**Intelligent Content QA System:** Functional, reusable system for AI-assisted web-content validation, comparing master vs. pre-production outputs and structuring reusable QA criteria.
+- Designed and delivered UX/UI and immersive experiences for international clients, including realtime showrooms, XR/AR and product communication. Connected design decisions with technical possibilities and production requirements across disciplines.
 
-**Marketing Operations Estimator:** Reusable estimation framework using complexity drivers, assumptions, dependencies and benchmark logic to improve planning consistency.
+Founder · Digital Studio Director 2014 – 2020
 
-**Automotive CGI Production & Team Leadership:** Led the interior-lighting function for a five-person CGI team, supporting onboarding, reviewing quality and maintaining delivery consistency for a global premium automotive brand.
+BlackSheepStudio — Spain
+
+- Founded and directed the studio, owning client discovery, requirements and project / product definition through final delivery.
+
+- Defined scope, built estimates and project budgets, and planned production, balancing client value, quality and timelines across multiple industries.
+
+- Coordinated external collaborators, reviewed quality and managed delivery, keeping client expectations aligned with scope, costs and production realities.
+
+Art Director · Graphic Designer · 3D Specialist 2003 – 2014
+
+Agencies & Creative Studios — Spain
+
+- Built hands-on depth across art direction, design, branding, advertising, UX/UI and 3D/CGI — the practical foundation for assessing scope, discussing technical trade-offs and setting realistic delivery expectations.
+
+## Selected Projects & Business Value
+
+Intelligent Content QA System
+Identified the opportunity, defined product logic and requirements, and coordinated contributors to turn fragmented manual reviews into a functional, reusable end-to-end system. Covers Master, Pre-live and Post-live checks for titles, metadata, headings, CTAs, links, keywords and brand rules.
+FastAPI · Python · Playwright · AEM validation · Rule-based checks · Semantic validation · AI-assisted development.
+
+Marketing Operations Estimator
+Defined the concept and structured a reusable planning and estimation framework. Connects capabilities, production complexity, assumptions and dependencies to more consistent scope, effort and budget discussions. Applies product thinking to operations, turning production knowledge into structured commercial decisions.
+
+Design Thinking & Business Process Transformation
+Led discovery, empathised with clients and stakeholders, mapped AS-IS processes and translated pain points into prioritised opportunities. Evaluated solutions against user needs, business impact, operational efficiency, feasibility, scalability, implementation effort and potential return — identifying the right problems before investing in solutions.
+
+CGI + GenAI Hybrid Production System
+Designed a hybrid workflow for consistent backplates and environments. Uses 3D blocking, camera control, geometry and orthographic views to guide GenAI exploration and client iteration. Aims to retain CGI control while accelerating exploration, balancing the limited control of pure image generation with the production effort of traditional CGI.
+Blender · 3ds Max · ComfyUI · 3D / GenAI workflow design.
+
+GenAI Enablement & Workflow Adoption
+Identified use cases, designed workflows and training, and translated operational needs into prototypes and tools. Internal ComfyUI / GenAI enablement and knowledge transfer help teams apply AI in real production processes, extending beyond isolated experiments.
 
 ## Education & Certifications
 
-- Project Management Certificate — Google, 2025
-- Product Management Certification — ESIC, 2025
-- Design Thinking Certification — Universidad Nebrija / Euroinnova, 2025
-- CRO & Product Designer — Gen/D, 2022
-- UX/UI Advanced — Mr Marcel School, 2020
-- VR / AR / XR Development Expert — UTAD, 2017–2018
+Project Management Certificate — Google
+2025
 
-### Additional specialist training
+Product Management Certification — ESIC
+2025
 
-- The Creative Process in Graphic Design — IED Madrid, 2021
-- How Designers Make Decisions — La Nave Nodriza, 2021
-- Digital Art for Animation and Video Games — Animum, 2013
-- Graphic Art and Advertising — C.E.N.P., 2001–2004
+Design Thinking Certification — Universidad Nebrija / Euroinnova
+2025
+
+CRO & Product Designer — Gen/D
+2022
+
+UX/UI Advanced — Mr Marcel School
+2020
+
+VR / AR / XR Development Expert — UTAD
+2017–2018
+
+Additional specialist training
+
+The Creative Process in Graphic Design — IED Madrid
+2021
+
+How Designers Make Decisions — La Nave Nodriza
+2021
+
+Digital Art for Animation and Video Games — Animum
+2013
+
+Graphic Art and Advertising — C.E.N.P.
+2001–2004
 
 ## Tools & Languages
 
-**Project / collaboration:** Monday, Ftrack, Confluence, Notion, Microsoft 365 + Copilot, Perforce.  
-**Digital / technical:** Unreal Engine, Unity, Figma, Adobe Creative Suite, ComfyUI, Claude Code, Stable Diffusion, Flux, Python (basic, in progress).  
-**Languages:** Spanish (native) | English B2 (daily professional use in international environments).
+Project & Production Management: Ftrack · GitHub · Monday.com · Jira.
+
+Technical & Creative Stack: Blender · 3ds Max · ComfyUI · Python (basic, in progress) · Playwright · GenAI tools · CGI/XR workflows · Figma · Adobe Creative Suite · Unreal Engine · Unity.
+
+Collaboration & Support: Confluence · Notion · Microsoft 365 + Copilot · Perforce · Claude Code.
+
+Languages: Spanish (native) · English B2 (daily professional use in international environments).
 
 ## Evidence & confidentiality constraints
 
