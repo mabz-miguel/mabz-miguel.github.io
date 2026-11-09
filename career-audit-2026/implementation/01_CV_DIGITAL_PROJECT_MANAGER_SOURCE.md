@@ -14,7 +14,7 @@ Madrid, Spain · mabz.miguel@gmail.com · linkedin.com/in/miguelballesteroszafra
 
 ## Professional Summary
 
-Digital Project Manager with 20+ years across business, design and technology. Turns complex needs into viable projects, connecting product thinking, UX/UI and creative technology with scope, estimates, budgets and quality. Experience spans studio ownership, digital products, process transformation and GenAI adoption, with end-to-end responsibility from discovery to delivery.
+Digital Project Manager with 20+ years across business, design and technology. Grounds project leadership in hands-on UX, XR and high-end automotive CGI production, including direct work with Mackevision. Connects scope, estimates, budgets and quality with delivery, process transformation and GenAI-enabled workflows.
 
 ## Capabilities
 
@@ -36,7 +36,9 @@ Accenture Marketing Operations — Madrid, Spain
 
 - Design GenAI use cases and production workflows; train teams through internal enablement, ComfyUI sessions and GenAI Hub knowledge transfer.
 
-- Led a five-person automotive CGI interior-lighting function, coordinating onboarding, quality review and consistent delivery.
+- Work directly with Mackevision as a Lighting Specialist in high-end automotive CGI, delivering lighting, visual quality and consistency for photorealistic imagery within mature production pipelines.
+
+- Led a five-person interior-lighting function: onboarding, quality control and delivery coordination, balancing brand requirements, technical constraints and production efficiency.
 
 - R&D and automation initiatives contributed to 25% lower operational costs, 40% faster time-to-market and productivity increases of up to 40%.
 
