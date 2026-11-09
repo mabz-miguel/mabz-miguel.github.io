@@ -34,7 +34,7 @@ Accenture Marketing Operations — Madrid, Spain
 
 - Apply Design Thinking to understand stakeholders, map AS-IS processes and prioritise solutions against user needs, feasibility, implementation effort and potential business return.
 
-- Design GenAI use cases and production workflows; train teams through internal enablement, ComfyUI sessions and GenAI Hub knowledge transfer.
+- Contribute to a specialist R&D team within Mackevision, collaborating with experienced production professionals to explore and develop AI-enabled pipelines, improve production efficiency and optimise workflows.
 
 - Work directly with Mackevision as a Lighting Specialist in high-end automotive CGI, delivering lighting, visual quality and consistency for photorealistic imagery within mature production pipelines.
 
@@ -83,7 +83,7 @@ Design Thinking & Business Process Transformation
 Led discovery, empathised with clients and stakeholders, mapped AS-IS processes and translated pain points into prioritised opportunities. Evaluated solutions against user needs, business impact, operational efficiency, feasibility, scalability, implementation effort and potential return — identifying the right problems before investing in solutions.
 
 CGI + GenAI Hybrid Production System
-Designed a hybrid workflow for consistent backplates and environments. Uses 3D blocking, camera control, geometry and orthographic views to guide GenAI exploration and client iteration. Aims to retain CGI control while accelerating exploration, balancing the limited control of pure image generation with the production effort of traditional CGI.
+Contribute to collaborative R&D at Mackevision on hybrid workflows for consistent backplates and environments. Uses 3D blocking, camera control, geometry and orthographic views to guide GenAI exploration and client iteration. Aims to retain CGI control while accelerating exploration, balancing the limited control of pure image generation with the production effort of traditional CGI.
 Blender · 3ds Max · ComfyUI · 3D / GenAI workflow design.
 
 GenAI Enablement & Workflow Adoption

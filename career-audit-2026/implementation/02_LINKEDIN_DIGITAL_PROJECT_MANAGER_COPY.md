@@ -22,19 +22,28 @@ Use only if the target vacancy is strongly content / production oriented.
 
 ## About — final English version (paste into About)
 
-I am a Digital Project Manager with 20+ years across business, design and technology. I turn complex needs into viable projects, connecting scope, estimates, project budgets and quality with cross-functional delivery.
+I am a Digital Project Manager with 20+ years across business, design and technology. I turn complex needs into clear, viable projects — understanding the problem, shaping the solution and leading teams from discovery to delivery.
 
-My management approach is grounded in hands-on production experience — from UX and product design to XR, high-end automotive CGI and AI-enabled workflows. I understand production teams because I have worked inside the craft itself.
+As founder and director of BlackSheepStudio, I owned client discovery, requirements, scope, estimates, budgets, planning, production and delivery. Running a studio taught me to connect client value with the practical and commercial realities of getting work done.
 
-At Accenture Marketing Operations, I work directly with Mackevision, an internationally recognised CGI producer, as a Lighting Specialist in high-end automotive CGI. My work involves lighting, visual quality and consistency across photorealistic automotive imagery, balancing brand standards, technical constraints and production efficiency within mature CGI pipelines. I have also led a five-person interior-lighting function, coordinating onboarding, quality review and consistent delivery.
+At Accenture Marketing Operations, I identify opportunities, define requirements and coordinate business, creative and technical contributors. My work includes:
+• Intelligent Content QA: turning manual reviews into a reusable system spanning Master, Pre-live and Post-live validation.
+• Marketing Operations Estimator: translating capabilities, complexity and dependencies into structured planning and commercial decisions.
+• CGI + GenAI: combining 3D control with AI exploration for consistent environments and backplates.
+• GenAI enablement: identifying use cases, designing workflows and training teams to apply AI in production.
 
-That technical depth informs my project leadership: I understand how requirements affect production, where quality needs attention and what teams need to deliver. I apply this understanding to process transformation and AI-enabled workflow design, connecting operational needs with practical solutions.
+Alongside my work as a Lighting Specialist in high-end automotive CGI, I contribute to a specialist R&D team within Mackevision. We combine our production expertise to explore and develop AI-enabled pipelines, improve production efficiency and optimise workflows while maintaining visual quality and brand standards.
 
-My career has grown from specialist production into studio ownership, project leadership, process transformation and GenAI adoption. As founder and director of BlackSheepStudio, I managed client relationships, project definition, scope, estimates, budgets, production and delivery.
+I use Design Thinking to identify the right problems and turn them into viable business opportunities, connecting stakeholder empathy, discovery and AS-IS mapping with business impact, feasibility and potential return.
 
-Recent work includes an Intelligent Content QA System spanning Master, Pre-live and Post-live checks; a reusable Marketing Operations Estimator; Design Thinking-led business process transformation; a hybrid CGI + GenAI production workflow; and practical GenAI enablement. I use Design Thinking to understand stakeholder needs and evaluate solutions against feasibility, operational impact and potential business return.
+My capabilities span three connected areas:
+• Strategy & Delivery: project and product management, scoping, estimation, budgets, stakeholder management and process transformation.
+• Product & Experience: UX/UI, product design, CRO, customer experience, prototyping and Design Thinking.
+• Creative Technology: 3D/CGI, motion graphics, XR, GenAI and automation.
 
-My focus is clear: align people, requirements and production realities to deliver useful digital work and improve how it gets made.
+Tools include Ftrack, GitHub, Monday.com, Jira, Blender, 3ds Max, ComfyUI and Playwright.
+
+I bring business clarity, hands-on depth and end-to-end ownership — connecting what clients need with what teams can build.
 
 ---
 
@@ -53,6 +62,7 @@ Jun 2025 – Present. Preserve the existing employment record and dates.
 - Identify opportunities, define requirements and coordinate business, creative and technical contributors across digital production, content QA, estimation and workflow automation.
 - Work directly with Mackevision as a Lighting Specialist in high-end automotive CGI, producing lighting for photorealistic automotive imagery and maintaining visual quality and consistency within mature CGI pipelines.
 - Balance brand requirements, technical constraints and production efficiency; connect hands-on production knowledge with project planning, quality control and delivery.
+- Contribute to a specialist R&D team within Mackevision, collaborating with experienced production professionals to explore and develop AI-enabled pipelines, improve production efficiency and optimise workflows.
 - Led a five-person automotive CGI interior-lighting function, coordinating onboarding, quality review and consistent delivery.
 - Apply Design Thinking to understand stakeholder needs, map AS-IS processes and prioritise solutions against feasibility, implementation effort and potential business return.
 - Define product logic and requirements for an Intelligent Content QA System covering Master, Pre-live and Post-live checks, and design a reusable estimation framework connecting production complexity with scope, effort and budgets.
